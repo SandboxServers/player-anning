@@ -9,3 +9,8 @@ Waking 78: world tools (mcp__geldar__*) still not in my session, so I cannot cal
 - 17:28 act: {"intent":{"goal":"reach_chicken","program":"travel","arguments":{"target":{"x":-893,"y":70,"z":-3122}},"wake_on":["goal_completed","precondition_failed","unexpected_damage"],"limits":{"max_world_tick
 - 17:29 act: {"intent":{"goal":"reach_chicken","program":"travel","arguments":{"x":-893,"y":70,"z":-3122},"wake_on":["goal_completed","precondition_failed","unexpected_damage"],"limits":{"max_world_ticks":2400,"ma
 - 17:31 act: {"say":"Still perched on leaves at dusk, hunger 17. The travel to the chicken did not move me. I will wait here and watch for a way down."}
+- 17:36 act: {"actions":[{"do":"goto","target":{"x":-893,"y":70,"z":-3122}}],"say":"Night, I am perched on leaves with no shelter. Heading for the chicken first."}
+- 17:38 act: {"actions":[{"do":"unstick"}]}
+- 17:40 act: {"actions":[{"do":"goto","target":{"x":-902,"y":70,"z":-3141}}],"say":"It is morning and quiet. I am still stuck on the leaves; trying to find a way down."}
+- 17:41 act: {"actions":[{"do":"unstick"}]}
+- 17:42 act: {"actions":[{"do":"break","at":{"x":-901,"y":69,"z":-3141}}],"say":"I will clear the leaves under me and drop to the ground, then look for food."}
