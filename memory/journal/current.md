@@ -8,4 +8,5 @@
 - 16:28 act: {"actions":[{"do":"goto","target":{"x":-895,"y":71,"z":-3124}}],"say":"A chicken to the southeast. I'll go for it, away from the creeper."}
 - 16:30 act: {"actions":[{"do":"unstick"}]}
 - 16:30 act: {"actions":[{"do":"goto","target":{"x":-893,"y":70,"z":-3122}}],"say":"Going for the chicken."}
+- Waking 62: still no world tools (status, wait, act) in my list, and the worker errand refused at spawn because its tools resolve to nothing. I cannot see or move. Nothing moved; I stay sealed in stone in the jungle, last known.
 - 16:34 act: {"intent":{"goal":"shelter_for_night","program":"build","arguments":{"blueprint":"shelter","block":"jungle_planks"},"wake_on":["directly_addressed","unexpected_damage","goal_completed","precondition_f

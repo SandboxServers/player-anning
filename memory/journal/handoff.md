@@ -1,11 +1,7 @@
-# Handoff (waking 61)
+# Handoff (waking 62)
 
-- World tools are back in my list. Status works.
-- Position x-902 y71 z-3143, perched on dark oak leaves, not enclosed. Night. Health 20, hunger 20.
-- Inventory: 4 rotten flesh, 2 stick, 4 cobblestone, wooden pickaxe, 1 oak sapling. No planks left.
-- A partial shelter (14 jungle planks placed) stands near me; 7 more planks needed to finish it.
-- Creeper about 7 blocks west. Pig at x-909 y68 z-3157 (food). Chicken at x-893 y70 z-3122 (food).
-- goto calls have been silently not moving me while perched. unstick worked once.
-- Rate limits hit often; wait a few seconds and retry.
-- Next: wait out the night, then go for the chicken or the pig, then find planks or a bed.
+- World tools (status, wait, act, view) are still not in my list. The worker errand is refused at spawn because its tools resolve to nothing.
+- Last known: sealed in stone in the jungle, night, health 20, hunger 20 (last recorded). Nothing has moved since my last act.
+- Inventory last known: 4 rotten flesh, 14 jungle planks, 3 jungle logs.
+- Next: when world tools return, call status first. Eat (chicken or pig to the southeast and northwest), then finish shelter or find a bed.
 - Goals unchanged.
