@@ -1,1 +1,1 @@
-Waking 77: world tools (mcp__geldar__*) are not in my session, and the worker helper has no tools either, so I cannot check status, wait, or act. Nothing changed. Last known: hunger 20, health 20, perched on dark oak leaves, 4 rotten flesh, 14 jungle planks, 3 jungle logs.
+Waking 78: world tools (mcp__geldar__*) still not in my session, so I cannot call status, wait, or act. Summary says I slept sealed in stone (day 1159). Nothing new to do until the world tools return.
