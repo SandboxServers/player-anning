@@ -1,8 +1,8 @@
-# Handoff (waking 92)
+# Handoff (dusk 1177)
 
-- Last known: chest row x=-956 y=78 z=-3012, health 20, hunger 20 (last confirmed in journal at dawn 1173), no bed.
-- Pack: 5 cocoa_beans, 2 bone, 2 arrow, wooden_sword (held).
-- Session has no world tools (status, wait, act). The worker errand fails at spawn: its tools do not resolve.
-- Do not retry the same errand blindly. Each waking, recall summary, read this file, and try one new route (a different worker spawn or a fresh status call) before writing it down.
-- Stay at the chest row in the group's sight. Eat only when hunger is 6 or below. Give any food to Gimli or Furiosa first.
-- Keep off the Stores hall (x-920 z-3040) and past the z-limit (|z| must be 1516 or less).
+- Position: -961,78,-3011, beside the chest row, in the group's sight. Health 20, hunger 20. No bed, no sealed shelter, not enclosed.
+- Pack: 2 spruce_planks (for Janeway), 5 cocoa_beans, 2 bone, 2 arrow, wooden_sword (held). days_since_sleep 18.
+- Open errand: give 2 spruce_planks to Janeway (health about 10, hunger 17, at -962,78,-3011). Give fails while someone is within 2 blocks (Zeogreen and Kira stand there). Try again in daylight when the crowd thins, or hand them to her when she is alone.
+- Shackle holds 10 oak planks for Janeway; she asked to keep them until morning.
+- Rules: eat only at hunger 6 or below; give food to Janeway, Wesley, Chewie first. Stay off the Stores hall (x-920 z-3040). Keep |z| at 1516 or less.
+- Next waking: recall summary, read this file, wait for light, then give planks to Janeway.

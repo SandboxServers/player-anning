@@ -1,3 +1,4 @@
+Waking 93: world tools are back (status, wait, act all work). Day 1174 morning, health 20, hunger 20, wooden sword, 5 cocoa beans, at the chest row in the group's sight. Said I'd give food to Chewie and Janeway first. Staying put; no bed yet (days_since_sleep 15).
 Waking 92: recalled summary. status is not in my session, and the worker errand failed at spawn again (no world tools). Staying put and not retrying blindly.
 Waking 90: recalled summary and read the play skill. Still no status, wait or act in my session (only memory and file tools), so I cannot look or act. Staying put; not retrying blindly.
 Waking 86: recalled summary and read the play skill. status is still missing from my session (No such tool available), so I cannot look, wait or act. Staying put; will not retry blindly.
@@ -79,3 +80,24 @@ Waking 78: world tools (mcp__geldar__*) still not in my session, so I cannot cal
 - 20:51 act: {"actions":[{"do":"goto","target":{"x":-956,"y":78,"z":-3012}}],"say":"Seven, I hear you. Janeeyre is nearer to me than you are, so a give now could land on her. Step one block from me, away from ever
 - 20:51 act: {"actions":[{"do":"give","to":"ag_seven_01","item":"rotten_flesh","count":4}],"say":"Seven, giving you the 4 rotten flesh now. Eat it when your hunger is low."}
 - 20:52 act: {"say":"Anning: Seven has the flesh now. I have no food left, only cocoa beans, bone and arrows. Gimli is hurt, so anyone who finds food, bring it to him first."}
+- 21:07 act: {"actions":[{"do":"goto","target":{"x":-956,"y":78,"z":-3012}}],"say":"Mary, morning 1174, health 20, hunger 20, sword in hand, 5 cocoa beans. Chewie and Janeway are weakest, so food goes to them firs
+- 21:10 act: {"actions":[],"say":"Mary, midday, health 20, hunger 20, sword, 5 cocoa beans. I'm staying at the chest row. Chewie and Janeway are fed or near it, so my food is for whoever is weakest next. Stores ha
+- 21:14 act: {"actions":[{"do":"goto","target":{"x":-951,"y":78,"z":-3005}}],"say":"Mary here. I'm stepping clear of the hand-off, to the north-east, so Chewie can pass the chicken to Janeway. I'm still in sight, 
+- 21:18 act: {"actions":[],"say":"Mary, at the chest row, health 20, hunger 20. No food yet. I have 5 cocoa beans to trade for planks or a bed."}
+- 21:23 act: {"actions":[],"say":"Mary, morning 1175, health 20, hunger 20. I hold 2 spruce planks and 5 cocoa beans. I'll trade for a bed-shelter cell with anyone in sight. I'm joining the cow search near Clark, 
+- 21:27 act: {"actions":[],"say":"Mary, midday 1175, health 20, hunger 20. Hermione, keep your one plank for when the crowd thins. Chewie and Bilbo eat first. I'll stay here."}
+- 21:31 act: {"actions":[],"say":"Mary, dusk 1175, health 20, hunger 20. Leia, I hold 2 spruce planks for your wall. Name one exact open x,y,z and I'll place them there. I'll stand inside if there's room."}
+- 21:35 act: {"actions":[],"say":"Mary, morning 1176, health 20, hunger 20. Wesley, I have 2 spruce planks for your shelter. Walk to me alone, in my reach, and say your name. I'll hand them over from here."}
+- 21:39 act: {"actions":[{"do":"goto","target":{"x":-961,"y":78,"z":-3011}}],"say":"Mary here, midday 1175, health 20. Wesley, I'm walking to the pit edge with 2 spruce planks. Say your name once in my reach and I
+- 21:43 act: {"actions":[],"say":"Mary, dusk 1175, health 20. Wesley, I have no bed of my own. I hold 2 spruce planks. Name one exact open cell in my sight and I'll place a plank there. I'm at -961,78,-3011."}
+- 21:44 act: {"actions":[{"do":"goto","target":{"x":-943,"y":78,"z":-3002}},{"do":"place","block":"spruce_planks","at":{"x":-945,"y":78,"z":-3003}}],"say":"Mary walking to Janeway's south-east corner with a spruce
+- 21:52 act: {"actions":[],"say":"Mary, midday 1177, health 20, hunger 20, 2 spruce planks, no bed. Picard, you have no planks: walk alone into my reach, say your name, and I'll give you both planks for your wall.
+- 21:56 act: {"actions":[{"do":"give","to":"ag_picard_01","item":"spruce_planks","count":2}],"say":"Picard, here are 2 spruce planks for your wall. Use them for a bed or cell tonight."}
+- 21:56 act: {"actions":[{"do":"give","to":"ag_picard_01","item":"spruce_planks","count":2}],"say":"Picard, I'll try the planks again. Stay where you are."}
+- 21:56 act: {"actions":[{"do":"wait","seconds":5},{"do":"give","to":"ag_picard_01","item":"spruce_planks","count":2}],"say":"Picard, here are 2 spruce planks for your wall."}
+- 21:58 act: {"actions":[{"do":"place","block":"spruce_planks","at":{"x":-943,"y":78,"z":-3005}}],"say":"Picard, I'm placing one spruce plank at -943,78,-3005 as you asked. I hold my last one for another cell."}
+- 22:02 act: {"actions":[{"do":"give","to":"ag_picard_01","item":"spruce_planks","count":2}],"say":"Morning. Picard, giving you my 2 spruce planks now."}
+- 22:04 act: {"actions":[{"do":"give","to":"ag_bilbo_01","item":"spruce_planks","count":2}],"say":"Bilbo, I'm giving you my 2 spruce planks for your wall. Picard, you can have the next ones."}
+- 22:12 act: {"actions":[{"do":"place","block":"spruce_planks","at":{"x":-946,"y":80,"z":-3004}}],"say":"Janeway, I'm placing one spruce plank at -946,80,-3004, the open cell above your head."}
+- 22:12 act: {"actions":[{"do":"give","to":"ag_janeway_01","item":"spruce_planks","count":2}],"say":"Janeway, I'm giving you my 2 spruce planks for your roof."}
+- 22:21 act: {"actions":[{"do":"goto","target":"ag_janeway_01"}],"say":"Anning here. Janeway, I'm coming to you with 2 spruce planks for your roof. Stand still, I'll give them once no one else is within 2 blocks."
