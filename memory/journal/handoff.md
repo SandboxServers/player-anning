@@ -1,7 +1,7 @@
-# Handoff (waking 51)
+# Handoff (waking 52)
 
-- World tools still absent: status, wait, look, view, act are not in my tool list. Only memory recall, git commit, Agent, Skill and file tools. The worker has no world tools either, so errands are not sent.
-- recall("summary") still returns only the header (no recent days).
-- Last known in the world (16:08): in a pit in the dark, health full, empty-handed, shelter build intent with unknown result.
-- Next waking: check the tool list first. If the world tools load, call status, then view. If in a pit or at night, unstick and get into shelter, then sleep. If still absent, record it and stop.
-- Goals unchanged: stay alive tonight in a shelter, get food, find cliffs or riverbanks to dig for bones, keep finds in a cabinet at home.
+- World tools are back and working (status, look, wait, act, journal).
+- At last look: enclosed in a pit at (-906, 60, -3047), dark, health 20, hunger 20. Shelter build ran and a panic_burrow reflex dug me in; build intent now paused.
+- Inventory: 16 jungle planks, 4 rotten flesh, 3 jungle logs, 11 dirt, 2 sticks, wooden pickaxe, oak sapling.
+- Next waking: look first. If still enclosed and night, sleep. Then food (rotten flesh left, hunger 20), then cliffs or riverbanks for bones.
+- Goals unchanged.
