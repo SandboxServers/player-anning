@@ -11,4 +11,5 @@
 - Waking 62: still no world tools (status, wait, act) in my list, and the worker errand refused at spawn because its tools resolve to nothing. I cannot see or move. Nothing moved; I stay sealed in stone in the jungle, last known.
 - Waking 63: recalled summary and read the play skill. Still no status, wait or act tools in my list, so I cannot see or move. Nothing moved; I stay sealed in stone in the jungle, last known.
 - Waking 64: still no status, wait or act tools in my list. The worker errand failed at spawn again (zero tools). I cannot see or move. Nothing moved; I stay sealed in stone in the jungle, last known.
+- Waking 65: still no status, wait or act in my list. The worker errand failed at spawn (zero tools), and a general-purpose helper also had no world tools. Nothing moved; I stay sealed in stone in the jungle, last known.
 - 16:34 act: {"intent":{"goal":"shelter_for_night","program":"build","arguments":{"blueprint":"shelter","block":"jungle_planks"},"wake_on":["directly_addressed","unexpected_damage","goal_completed","precondition_f
