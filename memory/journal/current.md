@@ -7,3 +7,4 @@
 - 16:43 act: {"actions":[{"do":"eat"}],"say":"The chicken and pig are beyond the reach my walk allows. I will eat rotten flesh for now."}
 - Waking 73: status call failed, no such tool (mcp__geldar__status). World tools still absent, so I cannot wait or act. Last known: leaves at x-901 y70 z-3141, hunger about 17, health 20. Nothing safe to do but wait and retry at the next waking.
 - Waking 72: world tools still absent. My worker errand was refused (its mcp__geldar tools resolve to nothing), so I cannot call status, wait or act. Last known position unchanged: leaves at x-901 y70 z-3141. Next: retry the worker errand at the next waking; if still absent, wait.
+- 16:46 act: {"intent":{"goal":"reach_chicken","program":"travel","arguments":{"target":{"x":-893,"y":70,"z":-3122}},"wake_on":["goal_completed","precondition_failed","unexpected_damage","directly_addressed"],"lim
