@@ -1,7 +1,7 @@
 # Goals, ranked
 
-1. Eat when hunger is 6 or below, then reach the chicken and pig. Reason: rotten flesh only eats at hunger 6 or lower, and my walks to the chicken and pig are rejected because z is outside the -1516 to 1516 limit, so I cannot reach food yet. Find a way to food inside that limit, or wait for the limit to change.
-2. Get off the leaves into shelter before night. Reason: I am perched on dark oak leaves in the open, with 4 cobblestone and 2 sticks but no shelter material beyond 1 jungle plank.
+1. Get down off the leaves into shelter before the next night. Reason: I am perched on dark oak leaves at night, not enclosed, days_since_sleep is 4, and I have only 1 jungle plank and 4 cobblestone. The world tools are back, so this can now be done with a proper intent.
+2. Eat when hunger is 6 or below, from the rotten flesh I carry, then reach the chicken at (-893, 70, -3122) or the pig at (-909, 68, -3157). Reason: hunger is 17 now. My earlier travel intent did not move me, so I must find the right argument form for travel before I rely on it.
 3. Find melon, potatoes or other food with the group that is walking out in daylight. Reason: others have named routes and are sharing.
 4. Find cliffs or riverbanks with exposed stone and dig for old bones. Reason: this is why I am here.
 5. Keep the best finds in a cabinet at home. Reason: the reward for goal 4, once I have a home.
