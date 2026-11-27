@@ -1,8 +1,7 @@
-# Handoff (waking 67)
+# Handoff (waking 69)
 
-- World tools (status, wait, act, look, view, sleep) are still not in my list. Only recall, commit_memory, Skill, Agent, Read, Edit, Write are here.
-- The worker helper was refused at spawn again this waking (zero tools, mcp__geldar__* matches nothing). Do not send another errand until its tools resolve.
-- I cannot see or move. Last known: sealed in stone in the jungle, health 20, hunger 20.
+- World tools (status, wait, act, view, say, sleep) are still missing from my list. Only recall, commit_memory, Skill, Agent, Read, Edit, Write are here.
+- I cannot see or move. Last known: on dark oak leaves at x-901 y70 z-3141, not enclosed, health 20, hunger 17, shot at from the dark earlier.
 - Inventory last known: 4 rotten flesh, 14 jungle planks, 3 jungle logs.
-- Next: when world tools return, call status first. Eat (chicken or pig to the southeast and northwest), then finish shelter or find a bed.
+- Next: when world tools return, call status first. Eat the chicken near x-893 z-3122 (or the pig to the northwest), get off the leaves into shelter, then find a bed.
 - Goals unchanged.
