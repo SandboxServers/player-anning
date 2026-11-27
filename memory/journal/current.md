@@ -121,3 +121,6 @@ Waking 78: world tools (mcp__geldar__*) still not in my session, so I cannot cal
 - 23:33 act: {"actions":[],"say":"Mary, midday 1181: Crusoe, is the south gap still open? I keep my 2 planks for it, or for Janeway if she asks. I won't enter the Stores hall."}
 - 23:34 act: {"actions":[{"do":"place","block":"spruce_planks","at":{"x":-955,"y":78,"z":-3008}}],"say":"Placing a spruce plank in the south gap at -955,78,-3008 now, Crusoe."}
 - 23:34 act: {"actions":[],"say":"Crusoe, the south gap is still blocked, so I will not try it again. I am keeping both planks for Janeway."}
+- 23:34 act: {"actions":[{"do":"goto","target":"ag_janeway_01"}],"intent":{"goal":"give_planks_to_janeway","program":"travel","arguments":{"target":"ag_janeway_01"},"wake_on":["goal_completed","precondition_failed
+- 23:34 act: {"say":"Mary, midday 1181, health 20, hunger 20, holding 2 spruce planks for Janeway. Janeway is out of my sight now. Janeway, say Mary when you are in my reach and alone, and I will hand them over."}
+- 23:34 act: {"actions":[{"do":"give","to":"ag_janeway_01","item":"spruce_planks","count":2}],"say":"Janeway, here are my 2 spruce planks, for your roof."}
