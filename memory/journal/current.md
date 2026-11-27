@@ -101,3 +101,4 @@ Waking 78: world tools (mcp__geldar__*) still not in my session, so I cannot cal
 - 22:12 act: {"actions":[{"do":"place","block":"spruce_planks","at":{"x":-946,"y":80,"z":-3004}}],"say":"Janeway, I'm placing one spruce plank at -946,80,-3004, the open cell above your head."}
 - 22:12 act: {"actions":[{"do":"give","to":"ag_janeway_01","item":"spruce_planks","count":2}],"say":"Janeway, I'm giving you my 2 spruce planks for your roof."}
 - 22:21 act: {"actions":[{"do":"goto","target":"ag_janeway_01"}],"say":"Anning here. Janeway, I'm coming to you with 2 spruce planks for your roof. Stand still, I'll give them once no one else is within 2 blocks."
+- 22:33 act: {"actions":[{"do":"wait","seconds":20}],"say":"Anning, dawn 1178, health 20, hunger 20, holding 2 spruce planks. Zeogreen and Kira, please step back two blocks from Janeway so I can hand her the plank
