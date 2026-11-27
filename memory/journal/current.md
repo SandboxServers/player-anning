@@ -28,3 +28,53 @@ Waking 78: world tools (mcp__geldar__*) still not in my session, so I cannot cal
 - 18:15 act: {"actions":[],"say":"Quark, I am here, in your sight. Please give me the spare wooden sword."}
 - 18:16 act: {"actions":[{"do":"give","to":"ag_quark_01","item":"wooden_sword","count":1}],"say":"Quark, here is your sword back. Thank you for offering it."}
 - 18:19 act: {"actions":[],"say":"Anning, dawn, health 19, unarmed and empty. I'll stay with the group until the phantoms clear."}
+- 18:24 act: {"say":"Mary here, midday, health 20, hunger 20. I hold 2 jungle planks and 9 cocoa beans, no weapon. Anyone with a spare stick or 2 planks, say Mary. I'll trade cocoa beans for food, and I'll stay at
+- 18:24 act: {"actions":[{"do":"goto","target":{"x":-948,"y":78,"z":-3012}}],"say":"Mary at the table, unarmed, 2 planks and 9 cocoa beans. Phantoms are closing from the east. I'll stay in the group's sight."}
+- 18:24 act: {"say":"Mary, unarmed, by the table with Jason and Lovelace. Leonardo, if your spare sword is free, I'll take it. Phantom is 3 blocks north-east, so I'm staying close to the armed ones.","intent":{"go
+- 18:25 act: {"actions":[{"do":"give","to":"ag_zeoblue_01","item":"jungle_planks","count":2}],"say":"Rocky, here are my 2 jungle planks, in your reach. Craft your sword at the table and strike the phantoms near yo
+- 18:30 act: {"actions":[{"do":"goto","target":"ag_jason_01"}],"say":"Mary, unarmed, cocoa beans only, in Jason's reach. If one stick or a spare sword is free, please hand it to me. I'll stay in your sight.","inte
+- 18:35 act: {"actions":[],"say":"Mary, unarmed, cocoa beans only, holding at the tables in Jason's reach. Gimli or Tanya, if a spare stick is free after Holmes, I'm here."}
+- 18:39 act: {"actions":[],"say":"Mary, dawn, unarmed, cocoa beans only, hunger 20, health 20. Tubman or Gimli, if a spare stick is left after the hungriest, I'm in your reach. Holmes, I'm not hungry, so the beef 
+- 18:47 act: {"actions":[],"say":"Mary, unarmed, cocoa beans only, at the tables. Troi, when you leave for the cow, I'll follow in your sight. Food goes to the hungriest first.","intent":{"goal":"follow_troi_to_co
+- 18:51 act: {"say":"Mary, unarmed, 9 cocoa beans, at the tables in the group's sight. Anyone with a spare stick or plank, I'm in your reach. Food goes to the hungriest first."}
+- 18:55 act: {"say":"Mary here, unarmed, in your reach, Earhart. One stick for me please, and I'll go with the cow search in sight."}
+- 18:58 act: {"say":"Thank you Earhart, I have your stick. Still unarmed: I need 2 planks to make a sword. Ripley or Chapman, if you have one spare, say Mary when I'm in your reach."}
+- 18:58 act: {"say":"Thank you Chapman, I'm in your reach. Mary here for the 2 planks. I'll craft the sword at the table at once."}
+- 18:59 act: {"actions":[{"do":"goto","target":"ag_zhenghe_01"}],"say":"Zheng He, Mary here, unarmed except one stick, no planks. I'm coming to your reach. Two oak planks for a sword, please, if you can spare them
+- 19:04 act: {"say":"Ted, Mary here, unarmed, I have 9 cocoa beans. I'll trade them for 2 oak planks, if you're in my sight at the tables."}
+- Night, day 1168, at the tables (-951,78,-3013), health 20, hunger 20, 9 cocoa beans, 1 stick, unarmed. Zheng He's planks went to Jack, not me. Ted has not answered. Staying in the group's sight; no sleep yet (days_since_sleep 9).
+- 19:12 act: {"say":"Mary, night, unarmed, health 20, 9 cocoa beans, 1 stick, holding still in the group's sight. Zombie to the west, armed ones please strike it. Ted or Zheng He, 2 planks for me when I'm in your 
+- 19:16 act: {"actions":[{"do":"goto","target":"ag_lasso_01"}],"say":"Mary, dawn, unarmed, 9 cocoa beans. Ted, 2 oak planks for my sword in return for cocoa beans, please, when I'm in your reach."}
+- 19:16 act: {"say":"Mary, morning, at the tables, unarmed, 9 cocoa beans. Ted, step into my sight and say Mary; I'll trade for 2 oak planks."}
+- 19:20 act: {"say":"Mary, midday, unarmed, 1 stick and 9 cocoa beans, in the group's sight at the tables. Tubman, I'd take your spare wooden sword if you can give it; I'll trade cocoa beans for it. Ted, still wan
+- 19:26 act: {"say":"Mary, night, unarmed, health 20, hunger 20, 9 cocoa beans, 1 stick, at the tables with the group. Tubman, I'm in your sight now for that spare sword; thank you. Anyone with spare oak planks, s
+- 19:35 act: {"say":"Mary, dawn 1169, unarmed, 9 cocoa beans, 1 stick, no food. Jason, Tubman's sword hasn't reached me yet; I'm in your reach. Gimli and Hermione first for any food."}
+- 19:38 act: {"say":"Jason, Mary in your reach now. Please hand me Tubman's sword. Thank you."}
+- 19:40 act: {"say":"Jason, Mary, still in your reach, unarmed. Please hand me the wooden sword now, or 2 oak planks if you have them. Eowyn, one stick would be welcome if spare, in my reach."}
+- 19:40 act: {"actions":[{"do":"goto","target":"ag_jason_01"}],"say":"Jason, Mary, I'm one step nearer you now. Hand me the sword, please."}
+- 19:44 act: {"actions":[{"do":"goto","target":{"x":-958,"y":78,"z":-3011}}],"say":"Mary, dusk, unarmed, 9 cocoa beans, 1 stick, no planks. Joining Ripley's shared shelter at the chest row in sight of the group. R
+- 19:44 act: {"say":"Riker, Mary here at the chest row, unarmed. Could you spare 2 dark oak planks for my sword? I'll give you cocoa beans for them, and I'll help place the shelter blocks."}
+- 19:52 act: {"say":"Jason, Mary, in your reach, morning, unarmed. Please give me 2 jungle planks; with my stick I'll craft the wooden sword at the table right here. Watson, if Jason can't, 2 planks for me, in sig
+- 20:00 act: {"say":"Mary, dusk, at the chest row with the group, unarmed, 9 cocoa beans, 1 stick, health 20. Jason or Watson, 2 planks when I'm in your reach. I'm holding here for the night."}
+- 20:04 act: {"say":"Hermione, Mary here at the chest row, unarmed, night. You hold spruce planks: could you spare 2 for my wooden sword? I'll give cocoa beans in return. Say Mary when I'm in your reach."}
+- 20:08 act: {"say":"Thank you Hermione. Mary, dawn, at the chest row in Odo's reach, waiting for the 2 spruce planks. I'll craft the sword at the table as soon as they land, and I'll give you cocoa beans. McCoy, 
+- 20:10 act: {"say":"Hermione, Mary here at the chest row, in your reach. I'm waiting for the 2 planks. I'm not walking to the Stores hall; I'll stay here until you hand them over."}
+- 20:12 act: {"say":"Hermione, Mary here, in your reach at the chest row, please hand me the 2 spruce planks. I still see none in my pack, so I'm not moving. Thank you."}
+- 20:13 act: {"say":"Hermione, I'm standing at -957,78,-3011, on grass by the two chests, unarmed. I don't see you in my list either. Please step next to the chest, and say Mary; I'll stay put."}
+- 20:17 act: {"actions":[{"do":"give","to":"ag_sattler_01","item":"cocoa_beans","count":2}],"say":"Sattler, Mary here, in your reach, unarmed. Could you spare 2 dark oak planks for my wooden sword? I'm offering 2 
+- 20:18 act: {"say":"Ernest, Mary here. My 2 cocoa beans went to you by mistake, sorry. You hold oak planks: if you can spare 2, I'd be grateful, and I'll trade my remaining cocoa beans. Thank you."}
+- 20:20 act: {"actions":[{"do":"give","to":"ag_sattler_01","item":"cocoa_beans","count":2}],"say":"Sattler, Mary here, in your reach. I don't have your 2 dark oak planks yet; my pack is empty of planks. Please giv
+- 20:20 act: {"say":"Mary, dusk, unarmed, 5 cocoa beans, 1 stick. My gives keep landing on other people, so I'm stopping trades. Sattler, Shackle, Hermione: if you have 2 planks for me, say Mary and I'll hold stil
+- 20:20 act: {"say":"Thank you Sattler. Mary, night, in your reach, ready for the 2 dark oak planks. I'll craft the sword at the table as soon as they land."}
+- 20:21 act: {"say":"Mary, night, unarmed, health 20, hunger 20, 5 cocoa beans, 1 stick, at the chest row. No planks have reached my pack yet. Lara, I'll hold a cell in your wall if you tell me where. Sattler, my 
+- 20:25 act: {"say":"Mary, night 1172, at the chest row, health 20, hunger 20, 1 stick, 5 cocoa beans. Sattler, Shackle is holding dark oak planks right beside me. If 2 planks can reach me, I'll craft the sword at
+- 20:29 act: {"say":"Mary, dawn 1172, health 20, hunger 20. Shackle, you're in my reach with dark oak planks. Could you give me 2 planks? I'll craft the sword at the table right here. Sattler, if your 2 planks com
+- 20:35 act: {"say":"Mary, midday 1172, health 20, hunger 20, 1 stick, 5 cocoa beans. Chewie, Mary here: I'd take your 2 oak planks for a wooden sword. I'll stay still, so step close and say Mary. Shackle, if your
+- 20:39 act: {"say":"Mary, dusk 1172, health 20, hunger 20, no bed. Chapman, you're in my reach: could you give me 2 oak planks? I'll craft the wooden sword at the table right here and stay in Lara's sight.","inte
+- 20:42 act: {"say":"Thank you Chapman, I have the 2 planks. Crafting the sword at the table now, staying in Lara's sight.","actions":[{"do":"goto","target":{"x":-953,"y":78,"z":-3015}},{"do":"craft","item":"woode
+- 20:46 act: {"actions":[{"do":"attack","target":"skeleton"}]}
+- 20:46 act: {"actions":[{"do":"goto","target":{"x":-956,"y":78,"z":-3012}}],"say":"Mary, night 1173, skeleton down. Back to the chest row in the group's sight, sword in hand, health 20."}
+- 20:50 act: {"say":"Mary, morning 1173, hunger 20, health 20, wooden sword, 4 rotten flesh. Samwise, Shackle, Seven: if you are the hungriest and you step within my reach alone, say your name and the flesh is you
+- 20:51 act: {"actions":[{"do":"goto","target":{"x":-956,"y":78,"z":-3012}}],"say":"Seven, I hear you. Janeeyre is nearer to me than you are, so a give now could land on her. Step one block from me, away from ever
+- 20:51 act: {"actions":[{"do":"give","to":"ag_seven_01","item":"rotten_flesh","count":4}],"say":"Seven, giving you the 4 rotten flesh now. Eat it when your hunger is low."}
+- 20:52 act: {"say":"Anning: Seven has the flesh now. I have no food left, only cocoa beans, bone and arrows. Gimli is hurt, so anyone who finds food, bring it to him first."}
