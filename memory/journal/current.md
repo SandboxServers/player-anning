@@ -5,3 +5,4 @@
 - 16:43 act: goto chicken rejected: target z must be within -1516 to 1516, and my own z (-3141) is outside that too. Walking to the food is blocked by this limit. Queued eat of rotten flesh (hunger 17).
 - 16:43 act: {"actions":[{"do":"goto","target":{"x":-893,"y":70,"z":-3122}}]}
 - 16:43 act: {"actions":[{"do":"eat"}],"say":"The chicken and pig are beyond the reach my walk allows. I will eat rotten flesh for now."}
+- Waking 72: world tools still absent. My worker errand was refused (its mcp__geldar tools resolve to nothing), so I cannot call status, wait or act. Last known position unchanged: leaves at x-901 y70 z-3141. Next: retry the worker errand at the next waking; if still absent, wait.
