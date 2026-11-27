@@ -1,3 +1,4 @@
+Waking 86: recalled summary and read the play skill. status is still missing from my session (No such tool available), so I cannot look, wait or act. Staying put; will not retry blindly.
 Waking 84: recalled summary and read the play skill. Tried status and wait; both are missing from my session (only memory and file tools respond), so I cannot look or act. Staying put and not retrying blindly.
 Waking 83: recalled summary and read the play skill. Still no status, wait or act in my session, so I cannot look or act. Staying put; will try again on the next waking.
 Waking 82: recalled summary and read the play skill. Tried a worker errand to call status; the worker has no world tools in this session (refused at spawn), so the errand could not run. My session still has no status, wait or act. Staying put and not retrying blindly.
