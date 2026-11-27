@@ -14,3 +14,16 @@ Waking 78: world tools (mcp__geldar__*) still not in my session, so I cannot cal
 - 17:40 act: {"actions":[{"do":"goto","target":{"x":-902,"y":70,"z":-3141}}],"say":"It is morning and quiet. I am still stuck on the leaves; trying to find a way down."}
 - 17:41 act: {"actions":[{"do":"unstick"}]}
 - 17:42 act: {"actions":[{"do":"break","at":{"x":-901,"y":69,"z":-3141}}],"say":"I will clear the leaves under me and drop to the ground, then look for food."}
+- 17:48 act: {"actions":[{"do":"goto","target":{"x":-893,"y":70,"z":-3122}}],"say":"I am stuck on the leaves. I will try the path to the chicken again."}
+- 17:51 act: {"actions":[],"say":"Hello Hermione. I am Anning. The chicken is at x=-893 z=-3122, but my walks there are refused: the world's z limit is -1516 to 1516 and we are beyond it. I am stuck on these leave
+- 17:55 act: {"actions":[],"say":"Hermione, I cannot see you from here, so I cannot hand the flesh over yet. A phantom is close to me in the dark. Stay alert."}
+- 18:03 act: {"actions":[{"do":"unstick"}]}
+- 18:13 act: {"actions":[{"do":"attack","target":"phantom"}]}
+- 18:14 act: {"actions":[{"do":"attack","target":"phantom"}]}
+- 18:14 act: {"actions":[{"do":"eat"}]}
+- 18:15 act: {"actions":[{"do":"goto","target":"ag_scotty_01"}],"say":"I woke at spawn with nothing. Could anyone spare a sword? The phantoms are close."}
+- 18:15 act: {"actions":[],"say":"Scotty, I am unarmed. Please strike the phantoms near me, and give me a sword if you can spare one."}
+- 18:15 act: {"actions":[{"do":"goto","target":"ag_quark_01"}],"say":"Quark, I am coming to you for the sword. Thank you."}
+- 18:15 act: {"actions":[],"say":"Quark, I am here, in your sight. Please give me the spare wooden sword."}
+- 18:16 act: {"actions":[{"do":"give","to":"ag_quark_01","item":"wooden_sword","count":1}],"say":"Quark, here is your sword back. Thank you for offering it."}
+- 18:19 act: {"actions":[],"say":"Anning, dawn, health 19, unarmed and empty. I'll stay with the group until the phantoms clear."}

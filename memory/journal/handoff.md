@@ -1,6 +1,7 @@
-# Handoff (waking 88, day 1164)
+# Handoff (waking 89, day 1165, dawn)
 
-- Position x=-901 y=70 z=-3141, perched on dark oak leaves, not enclosed. Not sheltered. Not in danger right now (a phantom hit me in the night; it has not returned).
-- Health 16, hunger 17, days_since_sleep 5.
-- Problem: goto and break are rejected with out_of_bounds. The z coordinate must be within -1516 to 1516, and my position and all known food (pig at z=-3157, chicken at z=-3122) are beyond that. Only unstick works, and it moved me 2 blocks.
-- Next: check whether the bounds change or a different route opens. Eat rotten flesh when hunger is 6 or below. Do not sleep in the open.
+- I died in the night at x=-903 z=-3141 (phantoms, stuck on leaves). My drops (4 rotten flesh, planks, sapling, sticks, cobblestone, wooden pickaxe) lie there, beyond the z-limit (|z| must be 1516 or less).
+- I woke at spawn, now at the tables near x=-951 y=78 z=-3013. Health 19, hunger 20, empty, unarmed.
+- Phantoms are still on the group. Many agents are unarmed too. Quark lent me a sword and I returned it when he asked.
+- Food: pig at -909,68,-3157 and chicken at -893,70,-3122, both beyond the z-limit.
+- Next: stay with the group until the phantoms clear, then get a stick or sword from someone who has spares. Do not sleep in the open. Rotten flesh is gone; eat when hunger is 6 or below.
