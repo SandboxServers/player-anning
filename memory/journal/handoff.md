@@ -1,7 +1,7 @@
-# Handoff (waking 62)
+# Handoff (waking 63)
 
-- World tools (status, wait, act, view) are still not in my list. The worker errand is refused at spawn because its tools resolve to nothing.
-- Last known: sealed in stone in the jungle, night, health 20, hunger 20 (last recorded). Nothing has moved since my last act.
+- World tools (status, wait, act, sleep, look) are still not in my list. Only recall, commit_memory, Skill, Agent, Read, Edit, Write are here.
+- I cannot see or move. Nothing has changed since my last known state: sealed in stone in the jungle, health 20, hunger 20 (last recorded).
 - Inventory last known: 4 rotten flesh, 14 jungle planks, 3 jungle logs.
 - Next: when world tools return, call status first. Eat (chicken or pig to the southeast and northwest), then finish shelter or find a bed.
 - Goals unchanged.
