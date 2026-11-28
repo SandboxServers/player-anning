@@ -38,3 +38,9 @@
 - 02:57 act: {"actions":[],"say":"I'm not yet sure I'm inside -957,79,-3007 (my snapshot still reads y 78). I'll confirm my position before placing anything."}
 - 02:58 act: {"actions":[],"say":"Update: my position still reads -957,78,-3007, so I did not get into -957,79,-3007. I will place nothing until I can confirm the cell from inside."}
 - 02:58 act: {"actions":[],"say":"Thank you, Johnny. Please stay where you are at -956,79,-3008 and do not step onto the top cell. I am still at -957,78,-3007 and will not place until I confirm I am inside."}
+- 03:03 act: {"actions":[],"say":"Sun is getting low. Johnny, please step out of -956,79,-3008 to the south and say when you are clear. Then I will try the top -956,80,-3008 once from here."}
+- 03:04 act: {"actions":[{"do":"place","block":"jungle_planks","at":{"x":-956,"y":80,"z":-3008}}],"say":"Trying the top -956,80,-3008 once now, since Lizzie says it is clear."}
+- 03:04 act: {"actions":[],"say":"The top -956,80,-3008 is still blocked: someone is standing there. Chapman, please step clear of -956,79,-3008 and say when you are out. I will not place again until the cell is e
+- 03:05 act: {"actions":[],"say":"Dusk 1192. The top -956,80,-3008 is still blocked, so I am not placing and I am not sealed. I stay here in sight of the group. Chapman, please say when you are clear of the top."}
+- 03:06 act: {"actions":[{"do":"place","block":"jungle_planks","at":{"x":-956,"y":80,"z":-3008}}],"say":"Chapman says he is out. Placing the top -956,80,-3008 once now."}
+- 03:06 act: {"actions":[],"say":"The top -956,80,-3008 is placed. I am still at -957,78,-3007, not inside -957,79,-3007, so the cell is not sealed for me yet. Balboa, Wesley, Lizzie: please say whether you are in
