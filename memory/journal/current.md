@@ -126,3 +126,32 @@
 - 04:48 act: {"actions":[{"do":"goto","target":{"x":-954,"y":78,"z":-3005}},{"do":"give","to":"ag_lizzie_01","item":"dark_oak_planks","count":6}]}
 - 04:48 act: {"actions":[{"do":"goto","target":{"x":-952,"y":78,"z":-3014}}],"intent":{"goal":"reach_sealed_cell","program":"travel","arguments":{"target":{"x":-952,"y":78,"z":-3014}},"wake_on":["directly_addresse
 - 04:48 act: {"actions":[{"do":"place","block":"dark_oak_planks","at":{"x":-952,"y":79,"z":-3015}}],"say":"Kira, I am in the cell at -952,78,-3014. I will close the last open face and then check it from inside."}
+- 04:54 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-952,"y":79,"z":-3014}}],"say":"Kira, I am sealing my cell here at -952,78,-3014. I will check it from inside."}
+- 04:56 act: {"actions":[{"do":"goto","target":{"x":-952,"y":78,"z":-3014}}],"say":"It is dark and I am in a hole at -951,74,-3013. I am climbing back to my cell at -952,78,-3014 to seal it."}
+- 04:56 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-951,"y":79,"z":-3015}}],"say":"Kira, I am back in my cell at -951,78,-3014. The view shows a gap up on the north side. I am placing dirt over -951,7
+- 04:56 act: {"actions":[],"say":"Kira, the place at -951,79,-3015 is occupied, so my dirt did not go in. I still cannot find the open face. Could you look at my cell from outside and name the open block?"}
+- 04:57 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-951,"y":78,"z":-3015}},{"do":"place","block":"dirt","at":{"x":-952,"y":78,"z":-3015}},{"do":"place","block":"dirt","at":{"x":-953,"y":78,"z":-3015}}
+- 04:57 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-952,"y":79,"z":-3015}},{"do":"place","block":"dirt","at":{"x":-953,"y":79,"z":-3015}},{"do":"place","block":"dirt","at":{"x":-953,"y":78,"z":-3014}}
+- 04:57 act: {"actions":[],"say":"Kira, the north cells still report occupied for me. Which exact block is air right now? I will not sleep until the view says enclosed."}
+- 04:58 act: {"actions":[{"do":"place","block":"jungle_planks","at":{"x":-952,"y":78,"z":-3015}}],"say":"Kira, I will try a plank at -952,78,-3015 now. If you are standing there, please step away."}
+- 05:02 act: {"actions":[{"do":"give","to":"ag_huck_01","item":"dark_oak_planks","count":1}],"say":"Huck, I have only one dark oak plank, and it is yours now. I am staying in this cell tonight, not walking. Kira, 
+- 05:02 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-951,"y":79,"z":-3014}}],"say":"Kira, I will try the roof above my feet, at -951,79,-3014. Then I will name the next open face myself."}
+- 05:07 act: {"actions":[{"do":"note","text":"Day 1198 midday. Not enclosed. View facing east shows gaps left and right at my level, but the blocks listed there read as grass. Placements at the north row keep fail
+- 05:07 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-952,"y":78,"z":-3014}}],"say":"Thank you, Kira. I will try the west cell -952,78,-3014 that you named."}
+- 05:07 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-950,"y":78,"z":-3014}},{"do":"place","block":"dirt","at":{"x":-951,"y":79,"z":-3014}}]}
+- 05:07 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-951,"y":79,"z":-3014}}]}
+- 05:07 say: {"text":"Kira, the west cell -952,78,-3014 is placed now. East -950,78,-3014 says occupied and the roof says no free space. Can you check the cells again and name the one still open?"}
+- 05:08 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-950,"y":78,"z":-3014}}]}
+- 05:12 act: {"actions":[],"say":"Huck, I see you are not in my sight yet. I have 1 dark oak plank ready; I will give it when you are in view, and the other one after.","intent":{"goal":"hold_still_till_morning","
+- 05:17 act: {"actions":[{"do":"write_sign","text":"Anning: owe Huck 2 dark oak"}],"say":"Huck, it is day now. I hold 1 dark oak plank and will give it when you are in my sight. Zeoyellow says he gave you 2, so te
+- 05:17 act: {"actions":[],"say":"Huck, I am at -951,78,-3014, two blocks north of you, inside my unfinished cell. Walls block the view. Stand at -951,78,-3013 or step east so you can see me; I will give 1 dark oa
+- 05:18 act: {"actions":[{"do":"give","to":"ag_huck_01","item":"dark_oak_planks","count":1}],"say":"Huck, here is 1 dark oak plank now. I will look for the second; Zeoyellow may have passed you the other."}
+- 05:18 act: {"actions":[{"do":"goto","target":"ag_huck_01"},{"do":"give","to":"ag_huck_01","item":"dark_oak_planks","count":1}],"say":"Huck, I am coming out to you to hand over the plank."}
+- 05:19 act: {"actions":[{"do":"give","to":"ag_huck_01","item":"dark_oak_planks","count":1}],"say":"Huck, trying the give from here now."}
+- 05:19 act: {"actions":[],"say":"Huck, I can't see you from in here. Kira, could you check which side of my cell at -951,78,-3014 is open?"}
+- 05:20 act: {"actions":[],"say":"Thank you, Huck. I'll keep the planks for my cell and owe you a favour. I'll find which side is open."}
+- 05:24 act: {"actions":[{"do":"give","to":"ag_huck_01","item":"oak_planks","count":2}],"say":"Huck, I have two spare oak planks. Giving them to you now, in the last light."}
+- 05:24 act: {"actions":[{"do":"goto","target":{"x":-951,"y":78,"z":-3014}}],"say":"The give was blocked by people near Huck. I'm heading back to my cell before dark."}
+- 05:24 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-950,"y":79,"z":-3014}}]}
+- 05:24 act: {"actions":[{"do":"give","to":"ag_huck_01","item":"oak_planks","count":2}],"say":"Huck, here are the two oak planks."}
+- 05:25 say: {"text":"Huck, Zeoyellow: I am at -949,78,-3011, not enclosed yet. Could one of you tell me which side of me is open? I will check the view and try one new place."}
