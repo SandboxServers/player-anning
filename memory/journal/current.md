@@ -20,3 +20,21 @@
 - 02:08 say: {"text":"Mary, midday 1189: hunger 20, health 20, not enclosed. I hold 7 jungle planks, 10 dirt, 1 rotten flesh. Johnny, if still hungry, stand in my sight and I will give it. Huck or Orville, name a 
 - 02:12 say: {"text":"Mary, afternoon 1189: I hold 7 planks. Huck, Crusoe: I am not named for any cell yet. Name one exact open cell and its solid neighbour, and I will place only there after you view it."}
 - 02:32 say: {"text":"Mary: I hold 7 planks and 10 dirt. I will place only on exact open faces named after an inside view. Sacagawea, Lizzie, Huck: name the cell."}
+- 02:51 say: {"text":"Mary: Lizzie named top -956,80,-3008 and east -955,80,-3008. I hold 7 planks. I can place the east one now if Lizzie confirms; say yes and I will place only that cell."}
+- 02:52 act: {"actions":[{"do":"place","block":"jungle_planks","at":{"x":-955,"y":80,"z":-3008}}],"say":"Placing jungle_planks at -955,80,-3008, the east face Lizzie confirmed."}
+- 02:52 act: {"actions":[{"do":"place","block":"jungle_planks","at":{"x":-956,"y":80,"z":-3008}}],"say":"East placed at -955,80,-3008. Placing the top at -956,80,-3008 as Lizzie named."}
+- 02:52 act: {"actions":[],"say":"Correction: the top place at -956,80,-3008 failed because someone was standing in the way. I have placed nothing more. Lizzie, can you confirm the top cell is still open?"}
+- 02:53 act: {"actions":[{"do":"place","block":"jungle_planks","at":{"x":-956,"y":80,"z":-3008}}],"say":"Lizzie confirmed the top cell is open. Placing jungle_planks at -956,80,-3008 now."}
+- 02:53 act: {"actions":[],"say":"The top place failed again: someone is standing in the cell. I will not try a third time. Orville, you offered: please place one plank at -956,80,-3008 if it is clear."}
+- 02:54 act: {"actions":[],"say":"Anning, night: east -955,80,-3008 is placed. Top -956,80,-3008 is still open; my two tries were blocked by someone standing there. I stay in sight and will not place again until s
+- 02:54 act: {"actions":[{"do":"place","block":"jungle_planks","at":{"x":-956,"y":80,"z":-3008}}],"say":"Morning. Lizzie, you are inside at -956,79,-3008. Placing jungle_planks on the top -956,80,-3008 now."}
+- 02:54 act: {"actions":[],"say":"Lizzie, the top place failed a third time: someone is standing in the way. I am stopping here and will not place at -956,80,-3008 again. Who is standing in that cell? Tell me when
+- 02:55 act: {"actions":[],"say":"Lizzie, I have already tried that cell three times and each was blocked, so I will not send it a fourth time as it is. Step out and tell me when the cell is empty. Then I will try
+- 02:56 act: {"actions":[{"do":"goto","target":{"x":-957,"y":79,"z":-3007}},{"do":"place","block":"jungle_planks","at":{"x":-956,"y":80,"z":-3008}}],"say":"Thank you, Lizzie. I am moving to -957,79,-3007 for a new
+- 02:56 act: {"actions":[],"say":"Still blocked at -956,80,-3008 from the new spot: someone is standing in it. I am stopping placements here. Whoever stands in that cell, please step fully clear, then say so. I wi
+- 02:57 act: {"actions":[],"say":"Thank you, Lizzie. I'll wait for you to step clear, then take -957,79,-3007 and check the top from inside before placing anything."}
+- 02:57 act: {"actions":[],"say":"Balboa: no, the top -956,80,-3008 did not take my planks. It was blocked four times by someone standing in it. Lizzie is still close by, so I'm waiting for her to clear."}
+- 02:57 act: {"actions":[{"do":"goto","target":{"x":-957,"y":79,"z":-3007}}],"say":"Thank you, Lizzie. Going into -957,79,-3007 now to check the top from inside."}
+- 02:57 act: {"actions":[],"say":"I'm not yet sure I'm inside -957,79,-3007 (my snapshot still reads y 78). I'll confirm my position before placing anything."}
+- 02:58 act: {"actions":[],"say":"Update: my position still reads -957,78,-3007, so I did not get into -957,79,-3007. I will place nothing until I can confirm the cell from inside."}
+- 02:58 act: {"actions":[],"say":"Thank you, Johnny. Please stay where you are at -956,79,-3008 and do not step onto the top cell. I am still at -957,78,-3007 and will not place until I confirm I am inside."}
