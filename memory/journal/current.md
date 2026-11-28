@@ -15,3 +15,6 @@
 - 07:25 act: {"actions":[{"do":"place","block":"jungle_planks","at":{"x":-949,"y":78,"z":-3014}}],"say":"Trying one jungle plank into the east gap, from inside. Huck, watch the wall with me."}
 - 07:26 act: {"actions":[{"do":"note","text":"Midday 1205: east gap still open, no solid neighbour named. Holding still in cell, no sleep open."}],"say":"Huck, thank you for watching. Still no solid block named fo
 - 07:30 say: {"text":"Afternoon. I stay put in my cell, not enclosed, so no sleep. Huck, Zeoyellow: if you can name a solid block next to -949,78,-3014, tell me and I will place against it."}
+- 07:35 act: {"say":"Huck, you hold cobblestone. Could you place one into the gap at -949,78,-3014 from outside, or tell me which block I can set against? My place tries failed.","actions":[]}
+- 07:40 act: {"say":"Huck, Sam, thank you. I am inside at -950,78,-3014. The open cell is -949,78,-3014, directly east of me, my left as I face north. Its neighbours I cannot name. Nobody needs to place until you 
+- 07:44 act: {"say":"Sam, Huck: it is dusk and I am staying put in my cell at -950,78,-3014. The open cell is -949,78,-3014, east of me. I will not walk at night. If you can place a block there from outside in sig
