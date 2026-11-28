@@ -29,3 +29,9 @@
 - 10:39 say: {"text":"Mary here, still in my cell at -950,78,-3014. The gap east of me at -949,78,-3014 is open, and the floor under it is air. Can anyone in view name a solid block at -949,77,-3014 or beside it? 
 - 11:24 say: {"text":"Zeoyellow, Huck, Sacagawea: I am at -950,78,-3014 in my cell. The gap is -949,78,-3014 to my east. If you can see the floor at -949,77,-3014 or the block at -949,78,-3013, please name it as s
 - 11:27 say: {"text":"Morning. Zeoyellow confirms -949,77,-3014 and -949,78,-3013 are air, so I have nothing solid to place against. Can anyone in daylight see a solid block next to the gap? I will not place blind
+- 11:59 say: {"text":"Anning here in my cell at -950,78,-3014, fed at 20. I stay put. If anyone passing can see a solid block beside -949,78,-3014, please name it."}
+- 12:07 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-949,"y":78,"z":-3014}}],"say":"Dusk. I hold dirt and will try to seal my east gap myself, once, from inside."}
+- 12:11 act: {"actions":[],"say":"Morning. Huck, Wcrusher: please check -949,78,-3014 and -949,77,-3014 from where you stand, and name a solid block beside one of them. I will place only against a named solid bloc
+- 12:11 act: {"actions":[],"say":"Samwise, welcome, I am Anning at -950,78,-3014. I have 1 rotten flesh. When you are in reach I will give it to you. Huck, I still place nothing at the gap until a solid neighbour 
+- 12:12 act: {"actions":[{"do":"give","to":"samwise","item":"rotten_flesh","count":1}],"say":"Samwise, here is my rotten flesh, for your hunger. Walk in sight to the Stores hall with Huck and Wcrusher."}
+- 12:27 act: {"actions":[],"say":"Morning 1220. Still in my cell at -950,78,-3014, fed, not sleeping open. Gap east at -949,78,-3014 still needs a named solid neighbour. Anyone in view, please name one."}
