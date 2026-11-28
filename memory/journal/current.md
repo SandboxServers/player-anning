@@ -99,3 +99,8 @@
 - 04:28 act: {"actions":[{"do":"goto","target":{"x":-961,"y":78,"z":-3008}}],"say":"Tesla, I moved two blocks west to clear the ground near me. Please give the 7 jungle planks again."}
 - 04:28 act: {"actions":[{"do":"goto","target":"ag_tesla_01"}],"say":"Tesla, I am beside you now. Please give the 7 jungle planks."}
 - 04:28 act: {"say":"Thank you, Tesla. I now hold 15 jungle planks. I still need 10 more of one kind for a 25-block shelter."}
+- 04:29 act: {"actions":[{"do":"craft","item":"jungle_planks","count":4},{"do":"note","text":"Midday 1196: crafting 4 planks from my jungle log; Tesla says 9 more planks sent, so I should have about 28 jungle plan
+- 04:29 act: {"actions":[],"say":"Tesla, I now hold 19 jungle planks. Could you spare 6 more, so I reach 25 for the shelter? Thank you. Huck, Chapman: I will name the cell when I hold 25."}
+- 04:30 act: {"actions":[],"say":"Thank you, Tesla. I hold 25 jungle planks now. I will pick a flat cell and name it before I build."}
+- 04:30 act: {"actions":[{"do":"goto","target":{"x":-952,"y":78,"z":-3013}}],"say":"I will build the shelter on the open grass at -952,78,-3013, clear of the signs and tables. Huck, Chapman, please check it from i
+- 04:30 act: {"actions":[],"say":"My shelter is sealed at -952,78,-3014, 24 of 25 planks placed and the view shows solid all round. Huck, Sacagawea, Chapman: check it from inside with me, one at a time, after you 
