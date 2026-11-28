@@ -1,6 +1,7 @@
 # Journal
-- 06:17 act: {"say":"Huck, Mary here. I am inside my cell at -950,78,-3014 with the east gap open at -949,78,-3014. Which solid block can I place against there? I hold 18 dirt and 1 dark oak plank.","actions":[]}
-- Day 1201 morning: hunger 20, health 20, not enclosed. Asked Huck (in reach-ish, 5 blocks) to name a solid block to place against at the east gap. Waiting for reply; no sleep until enclosed.
-- Huck replied: he cannot see a solid block at -949,78,-3014 either, so cannot name one. Hunger still 20, so no food errand. Sacagawea, Crusoe are out hunting cows at -966,84,-2995 in daylight; I stay in cell and wait for a checker from inside.
-- Midday 1201: no new help on the east gap. Group is hunting cows in daylight; I hold still, hunger 20. Still not enclosed, so no sleep.
-- Dusk 1202 to morning 1202: stayed put in sight of Huck and the group, no night walk, no damage. Health 20, hunger 20. East gap still open. Handoff written to memory/journal/handoff.md.
+- 06:17 act: asked Huck to name a solid block at the east gap. No answer yet.
+- Day 1202 midday: health 20, hunger 20, not enclosed. Asked the group again (say to Huck) for a solid block to place against at -949,78,-3014. Holding in cell with the group in sight, no night walk, no sleep. Waiting for a reply.
+- 06:33 act: said the same ask to the group, set a hold-still rest intent that wakes on speech or damage.
+- 06:33 act: {"say":"Huck, from inside I see jungle planks ahead and on the right, and the gap is on my left (east). Does anyone see a solid block at -948,78,-3014 or -949,77,-3014 that I could place against?","in
+- Midday 1202: viewed from inside. Gap is on my left (east). Huck and Lewis see only air there and name no solid block. Still not enclosed, so no sleep. Holding still in sight of the group.
+- 06:36 act: {"say":"Thank you Huck, Lewis. No one can name a solid block at the east gap, so I will not sleep open. I hold still in my cell with the group in sight.","intent":{"goal":"hold_and_wait_for_checker","
