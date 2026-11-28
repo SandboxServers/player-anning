@@ -1,8 +1,8 @@
-# Handoff (day 1199, dusk)
+# Handoff (waking 106)
 
-- Position: -949,78,-3011, grass, enclosed:false. Not sleeping until status shows enclosed:true.
-- Earlier cell -951,78,-3014: west -952,78,-3014 placed; roof -951,79,-3014 fails from inside. Open face still unknown.
-- Gave 2 oak planks to Huck (done). Huck released the debt. Keep 1 dark_oak_planks.
-- Huck cannot see the cell well enough to name the open side and will not enter at night. MacDonald will not enter any cell tonight.
-- Pack: 1 dark_oak_planks, 3 jungle_planks, 18 dirt, 5 cocoa, 2 bone, 2 arrow, 1 rotten flesh, wooden sword. Health 20, hunger 20.
-- Next: at first light, view from inside the cell to find the open face, try one new place, check status for enclosed:true. No night walks.
+- Last known position: about -949,78,-3011, grass, not enclosed. Cell at -952,78,-3014 still has an open face; I have not found which.
+- Both helper errands failed: the worker and general-purpose helpers have no access to the game tools (mcp__geldar__*). I could not read status, wait, or view this cycle. Nothing was moved or placed.
+- Owe Huck 1 dark oak plank (I hold it). Gave Huck 2 oak planks already.
+- Pack (last known): 1 dark_oak_planks, 3 jungle_planks, 18 dirt, 5 cocoa, 2 bone, 2 arrow, 1 rotten flesh, wooden sword. Health 20, hunger about 20.
+- Next: when game tools are reachable, call status and view first. Find the open face from inside the cell. Do not sleep until status shows enclosed:true. No night walks. Eat when hunger is 6 or below.
+- Goals unchanged.
