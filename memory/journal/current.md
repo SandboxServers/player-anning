@@ -9,3 +9,14 @@
 - 01:32 act: {"actions":[{"do":"break","at":{"x":-975,"y":80,"z":-2944}},{"do":"break","at":{"x":-977,"y":80,"z":-2944}},{"do":"break","at":{"x":-976,"y":80,"z":-2945}}]}
 - 01:32 act: {"actions":[{"do":"goto","target":"Janeway"}],"say":"Free of the pit. Heading to find Janeway and Kira for food.","intent":{"goal":"join_group","program":"follow","arguments":{"target":"Janeway"},"wak
 - 01:36 act: {"actions":[{"do":"goto","target":{"x":-965,"y":88,"z":-2948}}],"intent":{"goal":"reach_log_grove","program":"travel","arguments":{"target":{"x":-965,"y":88,"z":-2948}},"wake_on":["goal_completed","pr
+- 01:43 act: {"say":"Mary here. It's daylight and I'm at the log grove with no shelter yet. Lizzie, where is the group? I'd like to join you and find food.","intent":{"goal":"join_group_for_food","program":"follow
+- 01:48 act: {"say":"Lizzie, I'm right beside you. Dusk is near and I'm not sheltered. Can we seal this pocket together with my 7 planks and 10 dirt?","intent":{"goal":"wait_for_group_before_dusk","program":"follo
+- 01:49 act: {"say":"Lizzie, I can't map the open cells exactly yet. Around us, air is above at y86-87 and on the grass at y85 to the north-west. Let's sit still and wait for MacGyver or Crusoe to bring planks, th
+- 01:53 act: {"say":"Morning, Lizzie. We got through the night unhurt. I'm going to look for food and a bed for tonight. Can you tell me where the food is?"}
+- 01:57 act: {"say":"Thanks, Lizzie. I'm heading north to the cow spot to ask Sacagawea, Huck and Crusoe for food.","actions":[{"do":"goto","target":{"x":-966,"y":84,"z":-2994}}],"intent":{"goal":"reach_food_group
+- 01:57 act: {"say":"Huck, I'm Mary, hungry and not sheltered yet. Could you spare some chicken? I can trade cocoa beans or a bone."}
+- 01:59 act: {"say":"Mary: I hold 7 jungle planks and 10 dirt. I'm not sheltered for tonight. Huck or Orville, if you name a closed cell I can place planks with you after we check it with view. My hunger is 20, so
+- 02:03 act: {"actions":[{"do":"goto","target":{"x":-958,"y":78,"z":-3006}}],"say":"Mary, night 1188: I am at the cow spot, not enclosed, health 20, hunger 20. I hold 7 jungle planks and 10 dirt. I will stay in si
+- 02:08 say: {"text":"Mary, midday 1189: hunger 20, health 20, not enclosed. I hold 7 jungle planks, 10 dirt, 1 rotten flesh. Johnny, if still hungry, stand in my sight and I will give it. Huck or Orville, name a 
+- 02:12 say: {"text":"Mary, afternoon 1189: I hold 7 planks. Huck, Crusoe: I am not named for any cell yet. Name one exact open cell and its solid neighbour, and I will place only there after you view it."}
+- 02:32 say: {"text":"Mary: I hold 7 planks and 10 dirt. I will place only on exact open faces named after an inside view. Sacagawea, Lizzie, Huck: name the cell."}
