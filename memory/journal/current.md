@@ -18,3 +18,5 @@
 - 07:35 act: {"say":"Huck, you hold cobblestone. Could you place one into the gap at -949,78,-3014 from outside, or tell me which block I can set against? My place tries failed.","actions":[]}
 - 07:40 act: {"say":"Huck, Sam, thank you. I am inside at -950,78,-3014. The open cell is -949,78,-3014, directly east of me, my left as I face north. Its neighbours I cannot name. Nobody needs to place until you 
 - 07:44 act: {"say":"Sam, Huck: it is dusk and I am staying put in my cell at -950,78,-3014. The open cell is -949,78,-3014, east of me. I will not walk at night. If you can place a block there from outside in sig
+- 08:14 say: {"text":"Mary, midday 1207: still in my cell at -950,78,-3014, gap is east at -949,78,-3014. Huck, Sam: if you can see it, name one solid block next to it that I can place against. I will try once aft
+- 08:25 say: {"text":"Mary, morning 1208: Wesley, thank you. Could you stand at -948,78,-3012 or -947,78,-3014 and name the blocks at -948,78,-3014 and -949,77,-3014 as air or solid? I need one solid neighbour to 
