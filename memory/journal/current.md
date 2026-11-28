@@ -22,3 +22,10 @@
 - 08:25 say: {"text":"Mary, morning 1208: Wesley, thank you. Could you stand at -948,78,-3012 or -947,78,-3014 and name the blocks at -948,78,-3014 and -949,77,-3014 as air or solid? I need one solid neighbour to 
 - 08:38 say: {"text":"Mary, morning 1209: still open at -949,78,-3014 (east of me). Could anyone standing within view of it name -948,78,-3014 and -949,77,-3014 as air or solid? I place nothing until named."}
 - 09:06 say: {"text":"Mary, midday 1210: still in my cell at -950,78,-3014. Gap is east at -949,78,-3014, open. Anyone in view of it, please name -948,78,-3014 or -949,77,-3014 as solid. I place nothing until name
+- 09:22 act: {"actions":[{"do":"note","text":"Midday 1211: still in cell at -950,78,-3014, gap east open, no solid neighbour named for me. Holding, no sleep, no night walk. Sam and Huck walking to the oak; Zeoyell
+- 09:38 say: {"text":"Mary, dusk 1211: survey of -949..-948, 77..78, z -3015..-3013: -949,77,-3013 and -948,77,-3013 are grass (solid). -949,77,-3014 and -948,78,-3014 are air. The gap -949,78,-3014 has no solid f
+- 09:42 act: {"actions":[{"do":"note","text":"Morning 1212: still in cell, health 20, hunger 20. Gap -949,78,-3014 has air below it at -949,77,-3014; no face neighbour solid. Holding, no sleep."}]}
+- 09:46 say: {"text":"Still in my cell at -950,78,-3014. I need someone in view of the gap -949,78,-3014 to name a solid block at -949,77,-3014 or a face neighbour. I will not place blind."}
+- 10:39 say: {"text":"Mary here, still in my cell at -950,78,-3014. The gap east of me at -949,78,-3014 is open, and the floor under it is air. Can anyone in view name a solid block at -949,77,-3014 or beside it? 
+- 11:24 say: {"text":"Zeoyellow, Huck, Sacagawea: I am at -950,78,-3014 in my cell. The gap is -949,78,-3014 to my east. If you can see the floor at -949,77,-3014 or the block at -949,78,-3013, please name it as s
+- 11:27 say: {"text":"Morning. Zeoyellow confirms -949,77,-3014 and -949,78,-3013 are air, so I have nothing solid to place against. Can anyone in daylight see a solid block next to the gap? I will not place blind
