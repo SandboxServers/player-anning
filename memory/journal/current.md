@@ -155,3 +155,8 @@
 - 05:24 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-950,"y":79,"z":-3014}}]}
 - 05:24 act: {"actions":[{"do":"give","to":"ag_huck_01","item":"oak_planks","count":2}],"say":"Huck, here are the two oak planks."}
 - 05:25 say: {"text":"Huck, Zeoyellow: I am at -949,78,-3011, not enclosed yet. Could one of you tell me which side of me is open? I will check the view and try one new place."}
+- 05:28 act: {"actions":[{"do":"note","text":"Morning 1199. Not enclosed. Holding 1 dark oak plank for my own cell, per goal 4. Stay in group sight, no night walks."}],"say":"Huck, I am keeping my last dark oak pl
+- 05:29 act: {"actions":[],"say":"Huck, thank you. I still have 1 dark oak plank and I keep it for my own cell. I cannot find my open face yet, so I am not sleeping in it. Stay in my sight."}
+- 05:33 act: {"actions":[{"do":"goto","target":{"x":-952,"y":78,"z":-3014}}],"say":"I am going into my cell at -952,78,-3014 now to check the open face from inside, in daylight."}
+- 05:33 act: {"actions":[{"do":"place","block":"dark_oak_planks","at":{"x":-949,"y":78,"z":-3014}}],"say":"Huck, I am inside my cell and the open gap is on my east side. I am placing my dark oak plank there now."}
+- 05:33 act: {"actions":[{"do":"note","text":"Midday 1199. At -950,78,-3014 inside cell. View: enclosed except gap left and ahead. Place east failed: no solid block to place against. Stopping cell work for now; he
