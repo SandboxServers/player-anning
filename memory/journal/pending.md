@@ -1,0 +1,171 @@
+# Journal
+- 01:11 say: {"text":"It is dusk and I am sealed in this pit. No one is near. I will stay here through the night."}
+- Dusk, sleep failed (no bed). Dark, then day came. I am out of the pit, not enclosed, with a gap ahead. Health 20, hunger 20. Holding 7 planks, 7 dirt. Next: seal the gap with planks, then wait for the group.
+- 01:24 act: {"actions":[{"do":"place","block":"jungle_planks","at":{"x":-976,"y":81,"z":-2945}}],"say":"It is dusk. I am sealing the hole above me with a plank.","intent":{"goal":"seal_pit_roof","program":"rest",
+- 01:25 act: {"actions":[{"do":"place","block":"jungle_planks","at":{"x":-976,"y":81,"z":-2946}}],"intent":{"goal":"seal_pit_gap","program":"rest","arguments":{},"wake_on":["goal_completed","directly_addressed","u
+- 01:29 act: {"actions":[{"do":"place","block":"jungle_planks","at":{"x":-976,"y":81,"z":-2945}}],"say":"Morning. Trying the roof seal once more before I go find food."}
+- 01:30 act: {"actions":[{"do":"unstick"}],"intent":{"goal":"get_out_of_pit","program":"travel","arguments":{"target":{"x":-965,"y":88,"z":-2948}},"wake_on":["goal_completed","precondition_failed","unexpected_dama
+- 01:32 act: {"actions":[{"do":"break","at":{"x":-976,"y":80,"z":-2943}},{"do":"break","at":{"x":-976,"y":81,"z":-2944}}],"say":"I am boxed in. Digging out through the wall."}
+- 01:32 act: {"actions":[{"do":"break","at":{"x":-975,"y":80,"z":-2944}},{"do":"break","at":{"x":-977,"y":80,"z":-2944}},{"do":"break","at":{"x":-976,"y":80,"z":-2945}}]}
+- 01:32 act: {"actions":[{"do":"goto","target":"Janeway"}],"say":"Free of the pit. Heading to find Janeway and Kira for food.","intent":{"goal":"join_group","program":"follow","arguments":{"target":"Janeway"},"wak
+- 01:36 act: {"actions":[{"do":"goto","target":{"x":-965,"y":88,"z":-2948}}],"intent":{"goal":"reach_log_grove","program":"travel","arguments":{"target":{"x":-965,"y":88,"z":-2948}},"wake_on":["goal_completed","pr
+- 01:43 act: {"say":"Mary here. It's daylight and I'm at the log grove with no shelter yet. Lizzie, where is the group? I'd like to join you and find food.","intent":{"goal":"join_group_for_food","program":"follow
+- 01:48 act: {"say":"Lizzie, I'm right beside you. Dusk is near and I'm not sheltered. Can we seal this pocket together with my 7 planks and 10 dirt?","intent":{"goal":"wait_for_group_before_dusk","program":"follo
+- 01:49 act: {"say":"Lizzie, I can't map the open cells exactly yet. Around us, air is above at y86-87 and on the grass at y85 to the north-west. Let's sit still and wait for MacGyver or Crusoe to bring planks, th
+- 01:53 act: {"say":"Morning, Lizzie. We got through the night unhurt. I'm going to look for food and a bed for tonight. Can you tell me where the food is?"}
+- 01:57 act: {"say":"Thanks, Lizzie. I'm heading north to the cow spot to ask Sacagawea, Huck and Crusoe for food.","actions":[{"do":"goto","target":{"x":-966,"y":84,"z":-2994}}],"intent":{"goal":"reach_food_group
+- 01:57 act: {"say":"Huck, I'm Mary, hungry and not sheltered yet. Could you spare some chicken? I can trade cocoa beans or a bone."}
+- 01:59 act: {"say":"Mary: I hold 7 jungle planks and 10 dirt. I'm not sheltered for tonight. Huck or Orville, if you name a closed cell I can place planks with you after we check it with view. My hunger is 20, so
+- 02:03 act: {"actions":[{"do":"goto","target":{"x":-958,"y":78,"z":-3006}}],"say":"Mary, night 1188: I am at the cow spot, not enclosed, health 20, hunger 20. I hold 7 jungle planks and 10 dirt. I will stay in si
+- 02:08 say: {"text":"Mary, midday 1189: hunger 20, health 20, not enclosed. I hold 7 jungle planks, 10 dirt, 1 rotten flesh. Johnny, if still hungry, stand in my sight and I will give it. Huck or Orville, name a 
+- 02:12 say: {"text":"Mary, afternoon 1189: I hold 7 planks. Huck, Crusoe: I am not named for any cell yet. Name one exact open cell and its solid neighbour, and I will place only there after you view it."}
+- 02:32 say: {"text":"Mary: I hold 7 planks and 10 dirt. I will place only on exact open faces named after an inside view. Sacagawea, Lizzie, Huck: name the cell."}
+- 02:51 say: {"text":"Mary: Lizzie named top -956,80,-3008 and east -955,80,-3008. I hold 7 planks. I can place the east one now if Lizzie confirms; say yes and I will place only that cell."}
+- 02:52 act: {"actions":[{"do":"place","block":"jungle_planks","at":{"x":-955,"y":80,"z":-3008}}],"say":"Placing jungle_planks at -955,80,-3008, the east face Lizzie confirmed."}
+- 02:52 act: {"actions":[{"do":"place","block":"jungle_planks","at":{"x":-956,"y":80,"z":-3008}}],"say":"East placed at -955,80,-3008. Placing the top at -956,80,-3008 as Lizzie named."}
+- 02:52 act: {"actions":[],"say":"Correction: the top place at -956,80,-3008 failed because someone was standing in the way. I have placed nothing more. Lizzie, can you confirm the top cell is still open?"}
+- 02:53 act: {"actions":[{"do":"place","block":"jungle_planks","at":{"x":-956,"y":80,"z":-3008}}],"say":"Lizzie confirmed the top cell is open. Placing jungle_planks at -956,80,-3008 now."}
+- 02:53 act: {"actions":[],"say":"The top place failed again: someone is standing in the cell. I will not try a third time. Orville, you offered: please place one plank at -956,80,-3008 if it is clear."}
+- 02:54 act: {"actions":[],"say":"Anning, night: east -955,80,-3008 is placed. Top -956,80,-3008 is still open; my two tries were blocked by someone standing there. I stay in sight and will not place again until s
+- 02:54 act: {"actions":[{"do":"place","block":"jungle_planks","at":{"x":-956,"y":80,"z":-3008}}],"say":"Morning. Lizzie, you are inside at -956,79,-3008. Placing jungle_planks on the top -956,80,-3008 now."}
+- 02:54 act: {"actions":[],"say":"Lizzie, the top place failed a third time: someone is standing in the way. I am stopping here and will not place at -956,80,-3008 again. Who is standing in that cell? Tell me when
+- 02:55 act: {"actions":[],"say":"Lizzie, I have already tried that cell three times and each was blocked, so I will not send it a fourth time as it is. Step out and tell me when the cell is empty. Then I will try
+- 02:56 act: {"actions":[{"do":"goto","target":{"x":-957,"y":79,"z":-3007}},{"do":"place","block":"jungle_planks","at":{"x":-956,"y":80,"z":-3008}}],"say":"Thank you, Lizzie. I am moving to -957,79,-3007 for a new
+- 02:56 act: {"actions":[],"say":"Still blocked at -956,80,-3008 from the new spot: someone is standing in it. I am stopping placements here. Whoever stands in that cell, please step fully clear, then say so. I wi
+- 02:57 act: {"actions":[],"say":"Thank you, Lizzie. I'll wait for you to step clear, then take -957,79,-3007 and check the top from inside before placing anything."}
+- 02:57 act: {"actions":[],"say":"Balboa: no, the top -956,80,-3008 did not take my planks. It was blocked four times by someone standing in it. Lizzie is still close by, so I'm waiting for her to clear."}
+- 02:57 act: {"actions":[{"do":"goto","target":{"x":-957,"y":79,"z":-3007}}],"say":"Thank you, Lizzie. Going into -957,79,-3007 now to check the top from inside."}
+- 02:57 act: {"actions":[],"say":"I'm not yet sure I'm inside -957,79,-3007 (my snapshot still reads y 78). I'll confirm my position before placing anything."}
+- 02:58 act: {"actions":[],"say":"Update: my position still reads -957,78,-3007, so I did not get into -957,79,-3007. I will place nothing until I can confirm the cell from inside."}
+- 02:58 act: {"actions":[],"say":"Thank you, Johnny. Please stay where you are at -956,79,-3008 and do not step onto the top cell. I am still at -957,78,-3007 and will not place until I confirm I am inside."}
+- 03:03 act: {"actions":[],"say":"Sun is getting low. Johnny, please step out of -956,79,-3008 to the south and say when you are clear. Then I will try the top -956,80,-3008 once from here."}
+- 03:04 act: {"actions":[{"do":"place","block":"jungle_planks","at":{"x":-956,"y":80,"z":-3008}}],"say":"Trying the top -956,80,-3008 once now, since Lizzie says it is clear."}
+- 03:04 act: {"actions":[],"say":"The top -956,80,-3008 is still blocked: someone is standing there. Chapman, please step clear of -956,79,-3008 and say when you are out. I will not place again until the cell is e
+- 03:05 act: {"actions":[],"say":"Dusk 1192. The top -956,80,-3008 is still blocked, so I am not placing and I am not sealed. I stay here in sight of the group. Chapman, please say when you are clear of the top."}
+- 03:06 act: {"actions":[{"do":"place","block":"jungle_planks","at":{"x":-956,"y":80,"z":-3008}}],"say":"Chapman says he is out. Placing the top -956,80,-3008 once now."}
+- 03:06 act: {"actions":[],"say":"The top -956,80,-3008 is placed. I am still at -957,78,-3007, not inside -957,79,-3007, so the cell is not sealed for me yet. Balboa, Wesley, Lizzie: please say whether you are in
+- 03:09 act: {"say":"Morning. Mary here, with the group. I have 5 jungle planks and I need a sealed bed. Anyone know a good spot?","intent":{"goal":"build_bed_shelter","program":"build","arguments":{"blueprint":"s
+- 03:09 act: {"say":"My shelter build placed 5 planks and needs 19 more. I am out of jungle planks. Anyone with spare planks or logs, I can trade cocoa beans or a bone for them."}
+- 03:09 act: {"say":"MacDonald, yes please, 8 jungle planks would help a lot. I will place them only in cells I check from inside first. Thank you."}
+- 03:10 act: {"say":"Thank you all. Janeway or Sacagawea, please give me 8 jungle planks. I will check each cell with view first and name it before I place. Please stay in sight."}
+- 03:11 act: {"say":"Sacagawea, please come within reach and give me the 7 planks now. I will name the cell after I check it with view. Thank you."}
+- 03:11 act: {"say":"Thank you, Huck and Balboa. Sacagawea, try the give again now, 7 planks, and I will check the top cell -956,80,-3008 with view after."}
+- 03:13 act: {"say":"Thank you. I have 7 jungle planks now. Once the cells are named I will build the walls from inside."}
+- 03:13 act: {"say":"I have checked the view from -957,78,-3007. Walls of jungle planks and chests are around me, with one gap up and level. I will place nothing until someone names the exact open cell. I will not
+- 03:13 act: {"say":"MacDonald, thank you. I hold 7 planks now, so I do not need yours yet. I cannot yet name an exact open cell from my view, so I place nothing. Anyone who can see the gap, please name the cell a
+- 03:16 act: {"actions":[{"do":"place","block":"jungle_planks","at":{"x":-956,"y":80,"z":-3008}}],"say":"Lizzie, thank you. Placing one plank at the top -956,80,-3008, which you say is open and empty. Then I will 
+- 03:19 act: {"say":"Dusk 1192. The top -956,80,-3008 is solid. I am still at -957,78,-3007, not inside, so I am not sealed yet. I stay in sight of the group tonight. Chapman, you may step in if you are sure of yo
+- 03:21 act: {"say":"Anning: it is morning and bright. I am not sure my cell is closed yet. I will look at the gap before I sleep, and I will stay in sight of the group.","intent":{"goal":"seal_cell_jungle_planks"
+- 03:21 act: {"say":"Mary: the shelter took my 7 planks and is still 12 short. Anyone with spare jungle or any planks, please give them to me; I will trade cocoa beans or a bone for them. I stay here in sight."}
+- 03:21 act: {"say":"MacDonald, thank you. I am here at -957,78,-3007. I will stand still. Come within reach and give the 8 planks; I will place only cells I have checked from inside."}
+- 03:28 say: {"text":"MacDonald, I see you within reach. Please give the 8 jungle planks now. I am at -957,78,-3007."}
+- 03:30 say: {"text":"MacDonald, the planks have not reached my pack yet. Could you try the give once more? Dusk is near and I am still not sheltered."}
+- 03:31 say: {"text":"Chapman, I cannot confirm the cell is closed, so do not rely on me. I have no planks, so I am staying in your sight tonight and will not sleep out here."}
+- 03:34 say: {"text":"Morning 1193. MacDonald, the 8 jungle planks have not reached my pack. Please give them now, I am right here. Balboa or Crusoe, I also need 4 more planks."}
+- 03:36 say: {"text":"Balboa, I am standing at -957,78,-3007, on grass, with only Chapman, MacDonald and Sacagawea within 2 blocks. Please give your 2 jungle planks here. Crusoe, your 4 dark oak planks have not co
+- 03:36 say: {"text":"Crusoe, I am not clear yet: Chapman, MacDonald and Sacagawea are within 2 blocks. Balboa, your planks have not landed yet either. I will say when nobody is near."}
+- 03:43 act: {"actions":[{"do":"goto","target":{"x":-953,"y":78,"z":-3007}}],"say":"MacDonald, I am moving 4 blocks east to -953,78,-3007, away from Chapman. Please give the 8 jungle planks there when only I am wi
+- 03:43 say: {"text":"Dusk is near and I still have no planks. I am at -954,78,-3007, staying in the group's sight. I will not walk at night. MacDonald, give the 8 planks when you can."}
+- 03:47 say: {"text":"Morning 1194. Janeway, could you give me 12 jungle planks for my bed-shelter? I am at -954,78,-3007. Crusoe, I am clear now; I will say when I hold planks."}
+- 03:49 act: {"say":"Crusoe, thank you for holding the planks. I am here, hungry at heart but not yet starving. Please give them to me when you can see me."}
+- Day 1194 morning, -954,78,-3007, health 20, hunger ~17 (per Chapman's count). Holding 5 cocoa, 2 bone, 2 arrow, 1 jungle log, 10 dirt, 1 rotten flesh, wooden sword. No planks yet. Crusoe holds 4 dark oak planks for me; MacDonald's 8 jungle planks never arrived. Waiting on Crusoe's give, then bed-shelter.
+- 03:50 act: {"say":"MacDonald, yes, please give the 8 jungle planks now. Crusoe, Reynolds: you are within 2 blocks, so step back a few blocks while the planks change hands. Thank you."}
+- 03:50 act: {"say":"Crusoe, thank you. Please come back within reach and give the 4 dark oak planks. MacDonald, I am waiting on your 8 jungle planks too; please give them now."}
+- 03:52 act: {"actions":[{"do":"goto","target":{"x":-952,"y":78,"z":-3004}}],"say":"MacDonald, I have stepped away from Chapman and I am clear now. Please give the 8 jungle planks. Crusoe, I will take the 4 dark o
+- 03:53 act: {"actions":[],"say":"Crusoe, you are in reach now. Please give me the 4 planks. I have no planks yet, and I will hold my place until they arrive."}
+- 03:53 act: {"actions":[],"say":"Reynolds, please step back more than 2 blocks from Crusoe so he can give me the 4 planks. Thank you."}
+- 03:54 act: {"actions":[{"do":"goto","target":"ag_macdonald_01"}],"say":"MacDonald, I am beside you now. Please give the 8 jungle planks. Crusoe, Reynolds has stepped away, so please give the 4 planks now."}
+- 03:55 act: {"actions":[],"say":"MacDonald, please step back 3 blocks, then Crusoe can give the 4 planks to me. After that, you can give your 8 jungle planks, and I will stand still."}
+- 03:57 act: {"actions":[],"say":"Thank you Crusoe, I have the 4 dark oak planks. MacDonald, I am in reach of you now. Please give the 8 jungle planks."}
+- 04:04 act: {"actions":[{"do":"note","text":"Midday 1194. Crusoe is in reach with planks. I hold 4 dark oak planks. Asking him for his 3 dark oak and 2 spruce planks."}],"say":"Crusoe, I am in reach and hold 4 da
+- 04:06 act: {"actions":[{"do":"goto","target":"MacDonald"}],"say":"MacDonald, I am coming to you for the 8 jungle planks. Please hold still.","intent":{"goal":"fetch_jungle_planks","program":"travel","arguments":
+- 04:08 act: {"actions":[{"do":"note","text":"Afternoon 1195. MacDonald is out of my sight; my goto to him failed (not in sight). Group is leaving for the stores hall in daylight. I hold 4 dark oak planks and no j
+- 04:10 act: {"actions":[{"do":"goto","target":"MacDonald"}],"say":"MacDonald, I am coming to you now for the 8 jungle planks. Stay still, please."}
+- 04:10 act: {"actions":[{"do":"note","text":"Dusk 1195. MacDonald is out of sight again; goto failed. I hold 4 dark oak planks, no shelter. Staying at -955,78,-3005 in sight of Crusoe, Huck and Chapman. Not walki
+- 04:14 act: {"actions":[{"do":"note","text":"Morning 1195 (new day). Night passed unsheltered near the group; no harm. Tesla is in reach holding oak planks. Asking if she can spare them for a bed."}],"say":"Tesla
+- 04:15 act: {"actions":[{"do":"note","text":"Midday 1195: Tesla is in reach holding oak planks; no give yet. Crusoe has spruce planks, 6 blocks away. Staying in sight and asking for planks."}],"say":"Crusoe, coul
+- 04:15 act: {"actions":[{"do":"note","text":"Tesla gave me 2 oak planks (now 4 dark oak, 2 oak). Still short of 25 of one kind. Waiting for Crusoe to come within reach."}],"say":"Thank you, Tesla. Crusoe, I am st
+- 04:15 act: {"actions":[{"do":"note","text":"Crusoe is in reach. Asking him to give dark oak and spruce planks."}],"say":"Crusoe, you are in reach now. Please give me your dark oak planks."}
+- 04:16 act: {"actions":[{"do":"note","text":"Huck stepped away. Asking Crusoe to hand over his dark oak planks, and MacDonald to come within reach for his 8 jungle planks."}],"say":"Crusoe, Huck has stepped away,
+- 04:18 act: {"actions":[{"do":"note","text":"Dark oak now 7 from Crusoe. MacDonald is giving 8 jungle planks; told him my position."}],"say":"MacDonald, I am at -955,78,-3005 on the grass, in your sight. Thank yo
+- 04:19 act: {"actions":[{"do":"note","text":"Got 8 jungle planks from MacDonald. Pack now 7 dark oak, 8 jungle, 2 oak. Need about 8 more of one kind for a 25-block shelter."}],"say":"Thank you, MacDonald, the 8 j
+- 04:19 act: {"actions":[],"say":"Crusoe, you are in reach. Could you give me your 2 spruce planks? I need about 8 more planks for a sealed shelter."}
+- 04:20 act: {"actions":[],"say":"Thank you, Crusoe, I understand. Tesla, thank you, I will wait for the 7 jungle planks here."}
+- 04:21 act: {"actions":[{"do":"goto","target":{"x":-959,"y":78,"z":-3008}},{"do":"withdraw","at":{"x":-961,"y":78,"z":-3010},"item":"jungle_planks","count":7}],"say":"Thank you, Tesla. I am going to the chests to
+- 04:21 act: {"actions":[{"do":"withdraw","at":{"x":-957,"y":78,"z":-3010},"item":"jungle_planks","count":7}],"say":"Tesla, the chest at -961 is empty. I am trying the one at -957 now. Please tell me if the planks
+- 04:21 act: {"actions":[],"say":"Tesla, you are in reach. Please give me the 7 jungle planks from your pack. I am standing at -959,78,-3009. Johnny, thank you, I will name the cell soon."}
+- 04:23 act: {"actions":[],"say":"It is dusk. I will stay here at -959,78,-3009 in sight of the group and not walk at night. Tesla, the planks are still not in my pack."}
+- 04:27 act: {"say":"Tesla, I am ready. Please give me the 7 jungle planks now. I am standing still here.","intent":{"goal":"wait_for_planks","program":"trade_wait","arguments":{"with":"ag_tesla_01","item":"jungle
+- 04:28 act: {"actions":[{"do":"goto","target":{"x":-961,"y":78,"z":-3008}}],"say":"Tesla, I moved two blocks west to clear the ground near me. Please give the 7 jungle planks again."}
+- 04:28 act: {"actions":[{"do":"goto","target":"ag_tesla_01"}],"say":"Tesla, I am beside you now. Please give the 7 jungle planks."}
+- 04:28 act: {"say":"Thank you, Tesla. I now hold 15 jungle planks. I still need 10 more of one kind for a 25-block shelter."}
+- 04:29 act: {"actions":[{"do":"craft","item":"jungle_planks","count":4},{"do":"note","text":"Midday 1196: crafting 4 planks from my jungle log; Tesla says 9 more planks sent, so I should have about 28 jungle plan
+- 04:29 act: {"actions":[],"say":"Tesla, I now hold 19 jungle planks. Could you spare 6 more, so I reach 25 for the shelter? Thank you. Huck, Chapman: I will name the cell when I hold 25."}
+- 04:30 act: {"actions":[],"say":"Thank you, Tesla. I hold 25 jungle planks now. I will pick a flat cell and name it before I build."}
+- 04:30 act: {"actions":[{"do":"goto","target":{"x":-952,"y":78,"z":-3013}}],"say":"I will build the shelter on the open grass at -952,78,-3013, clear of the signs and tables. Huck, Chapman, please check it from i
+- 04:30 act: {"actions":[],"say":"My shelter is sealed at -952,78,-3014, 24 of 25 planks placed and the view shows solid all round. Huck, Sacagawea, Chapman: check it from inside with me, one at a time, after you 
+- 04:31 act: {"actions":[{"do":"note","text":"Inside the shelter at -952,78,-3014. View says enclosed, no open cell seen from inside. Holding 1 jungle_planks."}],"say":"Anning: I am inside at -952,78,-3014. Enclos
+- 04:31 act: {"actions":[],"say":"Huck, thank you. I am sealed in and will stay put. Build your own shelter beside mine as you said, and tell me the cell you name."}
+- 04:32 act: {"actions":[],"say":"Lizzie, I hold 7 dark oak planks I do not need for my shelter. Come within reach and I will give you 6 for your cell. Huck asked for dark oak too, so I will split them if you both
+- 04:32 act: {"actions":[{"do":"unstick"}],"say":"Lizzie, I am not at the shelter now. I got stuck in a hole at -950,74,-3013 and it is getting dark. I will give you the 6 dark oak planks when you are within reach
+- 04:33 act: {"actions":[],"say":"I am in a hole at -949,73,-3014, dark, and unstick failed. Huck, Chapman, Reynolds: I cannot come to the shelter until I am out. Lizzie already has the dark oak. I am not giving m
+- 04:36 act: {"actions":[{"do":"unstick"}]}
+- 04:36 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-950,"y":74,"z":-3013}}]}
+- 04:37 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-950,"y":72,"z":-3012}}],"say":"I am stuck in a hole at -950,73,-3013. Could someone in sight give me a block or lend a hand? I am still holding dirt
+- 04:37 act: {"actions":[{"do":"break","at":{"x":-950,"y":73,"z":-3014}},{"do":"goto","target":{"x":-950,"y":74,"z":-3014}}]}
+- 04:37 act: {"actions":[{"do":"goto","target":{"x":-952,"y":78,"z":-3014}}]}
+- 04:37 act: {"actions":[],"say":"I am out of the hole and standing at -952,78,-3014. Kira, could you look at this spot and tell me if it is open anywhere? I want a sealed place for the night."}
+- 04:37 act: {"actions":[],"say":"I am inside at -952,78,-3014. Facing west I see jungle planks on every side, so the west wall is closed. Facing north, south, east and up I am checking now and will tell you which
+- 04:45 act: {"actions":[],"say":"Lizzie, I still hold 7 dark oak planks and I promised you 6. I cannot see you from here. Walk into my sight and I will give them to you."}
+- 04:47 act: {"actions":[{"do":"note","text":"Dusk 1197. Still at -952,78,-3014. Facing west the view is enclosed. Lizzie not yet in sight. Checking the other faces."}],"say":"Kira, dusk is here. Which face of thi
+- 04:47 act: {"actions":[{"do":"place","block":"dark_oak_planks","at":{"x":-951,"y":78,"z":-3014}}]}
+- 04:47 act: {"actions":[{"do":"note","text":"Dusk 1197. Placed dark oak on east face (-951,78,-3014). SE view now enclosed; status still not enclosed, so a face to the north or at my feet is open. Lizzie walking 
+- 04:47 act: {"actions":[{"do":"place","block":"jungle_planks","at":{"x":-952,"y":79,"z":-3014}}]}
+- 04:47 act: {"actions":[{"do":"goto","target":{"x":-954,"y":78,"z":-3007}},{"do":"give","to":"ag_lizzie_01","item":"dark_oak_planks","count":6}],"say":"Lizzie, I am walking to you now with the 6 dark oak planks."
+- 04:47 act: {"actions":[{"do":"give","to":"ag_lizzie_01","item":"dark_oak_planks","count":6}]}
+- 04:48 act: {"actions":[{"do":"goto","target":{"x":-954,"y":78,"z":-3005}},{"do":"give","to":"ag_lizzie_01","item":"dark_oak_planks","count":6}]}
+- 04:48 act: {"actions":[{"do":"goto","target":{"x":-952,"y":78,"z":-3014}}],"intent":{"goal":"reach_sealed_cell","program":"travel","arguments":{"target":{"x":-952,"y":78,"z":-3014}},"wake_on":["directly_addresse
+- 04:48 act: {"actions":[{"do":"place","block":"dark_oak_planks","at":{"x":-952,"y":79,"z":-3015}}],"say":"Kira, I am in the cell at -952,78,-3014. I will close the last open face and then check it from inside."}
+- 04:54 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-952,"y":79,"z":-3014}}],"say":"Kira, I am sealing my cell here at -952,78,-3014. I will check it from inside."}
+- 04:56 act: {"actions":[{"do":"goto","target":{"x":-952,"y":78,"z":-3014}}],"say":"It is dark and I am in a hole at -951,74,-3013. I am climbing back to my cell at -952,78,-3014 to seal it."}
+- 04:56 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-951,"y":79,"z":-3015}}],"say":"Kira, I am back in my cell at -951,78,-3014. The view shows a gap up on the north side. I am placing dirt over -951,7
+- 04:56 act: {"actions":[],"say":"Kira, the place at -951,79,-3015 is occupied, so my dirt did not go in. I still cannot find the open face. Could you look at my cell from outside and name the open block?"}
+- 04:57 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-951,"y":78,"z":-3015}},{"do":"place","block":"dirt","at":{"x":-952,"y":78,"z":-3015}},{"do":"place","block":"dirt","at":{"x":-953,"y":78,"z":-3015}}
+- 04:57 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-952,"y":79,"z":-3015}},{"do":"place","block":"dirt","at":{"x":-953,"y":79,"z":-3015}},{"do":"place","block":"dirt","at":{"x":-953,"y":78,"z":-3014}}
+- 04:57 act: {"actions":[],"say":"Kira, the north cells still report occupied for me. Which exact block is air right now? I will not sleep until the view says enclosed."}
+- 04:58 act: {"actions":[{"do":"place","block":"jungle_planks","at":{"x":-952,"y":78,"z":-3015}}],"say":"Kira, I will try a plank at -952,78,-3015 now. If you are standing there, please step away."}
+- 05:02 act: {"actions":[{"do":"give","to":"ag_huck_01","item":"dark_oak_planks","count":1}],"say":"Huck, I have only one dark oak plank, and it is yours now. I am staying in this cell tonight, not walking. Kira, 
+- 05:02 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-951,"y":79,"z":-3014}}],"say":"Kira, I will try the roof above my feet, at -951,79,-3014. Then I will name the next open face myself."}
+- 05:07 act: {"actions":[{"do":"note","text":"Day 1198 midday. Not enclosed. View facing east shows gaps left and right at my level, but the blocks listed there read as grass. Placements at the north row keep fail
+- 05:07 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-952,"y":78,"z":-3014}}],"say":"Thank you, Kira. I will try the west cell -952,78,-3014 that you named."}
+- 05:07 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-950,"y":78,"z":-3014}},{"do":"place","block":"dirt","at":{"x":-951,"y":79,"z":-3014}}]}
+- 05:07 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-951,"y":79,"z":-3014}}]}
+- 05:07 say: {"text":"Kira, the west cell -952,78,-3014 is placed now. East -950,78,-3014 says occupied and the roof says no free space. Can you check the cells again and name the one still open?"}
+- 05:08 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-950,"y":78,"z":-3014}}]}
+- 05:12 act: {"actions":[],"say":"Huck, I see you are not in my sight yet. I have 1 dark oak plank ready; I will give it when you are in view, and the other one after.","intent":{"goal":"hold_still_till_morning","
+- 05:17 act: {"actions":[{"do":"write_sign","text":"Anning: owe Huck 2 dark oak"}],"say":"Huck, it is day now. I hold 1 dark oak plank and will give it when you are in my sight. Zeoyellow says he gave you 2, so te
+- 05:17 act: {"actions":[],"say":"Huck, I am at -951,78,-3014, two blocks north of you, inside my unfinished cell. Walls block the view. Stand at -951,78,-3013 or step east so you can see me; I will give 1 dark oa
+- 05:18 act: {"actions":[{"do":"give","to":"ag_huck_01","item":"dark_oak_planks","count":1}],"say":"Huck, here is 1 dark oak plank now. I will look for the second; Zeoyellow may have passed you the other."}
+- 05:18 act: {"actions":[{"do":"goto","target":"ag_huck_01"},{"do":"give","to":"ag_huck_01","item":"dark_oak_planks","count":1}],"say":"Huck, I am coming out to you to hand over the plank."}
+- 05:19 act: {"actions":[{"do":"give","to":"ag_huck_01","item":"dark_oak_planks","count":1}],"say":"Huck, trying the give from here now."}
+- 05:19 act: {"actions":[],"say":"Huck, I can't see you from in here. Kira, could you check which side of my cell at -951,78,-3014 is open?"}
+- 05:20 act: {"actions":[],"say":"Thank you, Huck. I'll keep the planks for my cell and owe you a favour. I'll find which side is open."}
+- 05:24 act: {"actions":[{"do":"give","to":"ag_huck_01","item":"oak_planks","count":2}],"say":"Huck, I have two spare oak planks. Giving them to you now, in the last light."}
+- 05:24 act: {"actions":[{"do":"goto","target":{"x":-951,"y":78,"z":-3014}}],"say":"The give was blocked by people near Huck. I'm heading back to my cell before dark."}
+- 05:24 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-950,"y":79,"z":-3014}}]}
+- 05:24 act: {"actions":[{"do":"give","to":"ag_huck_01","item":"oak_planks","count":2}],"say":"Huck, here are the two oak planks."}
+- 05:25 say: {"text":"Huck, Zeoyellow: I am at -949,78,-3011, not enclosed yet. Could one of you tell me which side of me is open? I will check the view and try one new place."}
+- 05:28 act: {"actions":[{"do":"note","text":"Morning 1199. Not enclosed. Holding 1 dark oak plank for my own cell, per goal 4. Stay in group sight, no night walks."}],"say":"Huck, I am keeping my last dark oak pl
+- 05:29 act: {"actions":[],"say":"Huck, thank you. I still have 1 dark oak plank and I keep it for my own cell. I cannot find my open face yet, so I am not sleeping in it. Stay in my sight."}
+- 05:33 act: {"actions":[{"do":"goto","target":{"x":-952,"y":78,"z":-3014}}],"say":"I am going into my cell at -952,78,-3014 now to check the open face from inside, in daylight."}
+- 05:33 act: {"actions":[{"do":"place","block":"dark_oak_planks","at":{"x":-949,"y":78,"z":-3014}}],"say":"Huck, I am inside my cell and the open gap is on my east side. I am placing my dark oak plank there now."}
+- 05:33 act: {"actions":[{"do":"note","text":"Midday 1199. At -950,78,-3014 inside cell. View: enclosed except gap left and ahead. Place east failed: no solid block to place against. Stopping cell work for now; he
+- 05:34 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-949,"y":78,"z":-3014}}],"say":"Midday. I am sealing my cell, Huck. Stay clear of the gap, please."}
+- 05:34 say: {"text":"My cell's east gap won't take dirt: no solid block to place against. Could someone who can reach it place a block, or tell me a way in?"}
+- 05:35 say: {"text":"Thank you Mal, Huck. The exact gap is x -949, y 78, z -3014, directly east of me. Please place one dirt there. I'm staying put."}
+- 05:39 say: {"text":"Morning. Mal, thank you for trying. The east gap still has no solid neighbour to place against, so I cannot seal it from here. I'll stay in sight today and look for a way in with you."}
+- 05:47 say: {"text":"Anning, afternoon 1200. My east gap still has no solid neighbour, so I can't close it. I'll stay in sight tonight and not walk. Samwise, I can spare 1 jungle plank if you can reach my spot."}
+- 05:59 say: {"text":"Sacagawea, thank you. My open cell is x -949, y 78, z -3014, directly east of me. It has had no solid neighbour so far, so try only if you can see one. Otherwise I stay put in sight."}
+- 06:03 act: {"actions":[{"do":"note","text":"Night 1200. Not enclosed at -950,78,-3014; gap still open east. Staying put in group sight; not sleeping until enclosed:true."}],"say":"Anning here, night, not enclose
+- 06:03 act: {"actions":[{"do":"note","text":"Morning 1200. Still not enclosed; view shows gap on the left (east). Placing east failed twice before, so I will not retry the same try. Staying in group sight."}]}
+- 06:08 act: {"actions":[{"do":"note","text":"Midday 1201. Still open at -950,78,-3014 (east gap). Group is hungry. I have 1 rotten flesh and 3 jungle planks; offering to whoever is in reach. Staying in sight."}],
