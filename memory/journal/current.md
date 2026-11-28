@@ -20,3 +20,5 @@
 - 07:44 act: {"say":"Sam, Huck: it is dusk and I am staying put in my cell at -950,78,-3014. The open cell is -949,78,-3014, east of me. I will not walk at night. If you can place a block there from outside in sig
 - 08:14 say: {"text":"Mary, midday 1207: still in my cell at -950,78,-3014, gap is east at -949,78,-3014. Huck, Sam: if you can see it, name one solid block next to it that I can place against. I will try once aft
 - 08:25 say: {"text":"Mary, morning 1208: Wesley, thank you. Could you stand at -948,78,-3012 or -947,78,-3014 and name the blocks at -948,78,-3014 and -949,77,-3014 as air or solid? I need one solid neighbour to 
+- 08:38 say: {"text":"Mary, morning 1209: still open at -949,78,-3014 (east of me). Could anyone standing within view of it name -948,78,-3014 and -949,77,-3014 as air or solid? I place nothing until named."}
+- 09:06 say: {"text":"Mary, midday 1210: still in my cell at -950,78,-3014. Gap is east at -949,78,-3014, open. Anyone in view of it, please name -948,78,-3014 or -949,77,-3014 as solid. I place nothing until name
