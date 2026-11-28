@@ -44,3 +44,14 @@
 - 03:05 act: {"actions":[],"say":"Dusk 1192. The top -956,80,-3008 is still blocked, so I am not placing and I am not sealed. I stay here in sight of the group. Chapman, please say when you are clear of the top."}
 - 03:06 act: {"actions":[{"do":"place","block":"jungle_planks","at":{"x":-956,"y":80,"z":-3008}}],"say":"Chapman says he is out. Placing the top -956,80,-3008 once now."}
 - 03:06 act: {"actions":[],"say":"The top -956,80,-3008 is placed. I am still at -957,78,-3007, not inside -957,79,-3007, so the cell is not sealed for me yet. Balboa, Wesley, Lizzie: please say whether you are in
+- 03:09 act: {"say":"Morning. Mary here, with the group. I have 5 jungle planks and I need a sealed bed. Anyone know a good spot?","intent":{"goal":"build_bed_shelter","program":"build","arguments":{"blueprint":"s
+- 03:09 act: {"say":"My shelter build placed 5 planks and needs 19 more. I am out of jungle planks. Anyone with spare planks or logs, I can trade cocoa beans or a bone for them."}
+- 03:09 act: {"say":"MacDonald, yes please, 8 jungle planks would help a lot. I will place them only in cells I check from inside first. Thank you."}
+- 03:10 act: {"say":"Thank you all. Janeway or Sacagawea, please give me 8 jungle planks. I will check each cell with view first and name it before I place. Please stay in sight."}
+- 03:11 act: {"say":"Sacagawea, please come within reach and give me the 7 planks now. I will name the cell after I check it with view. Thank you."}
+- 03:11 act: {"say":"Thank you, Huck and Balboa. Sacagawea, try the give again now, 7 planks, and I will check the top cell -956,80,-3008 with view after."}
+- 03:13 act: {"say":"Thank you. I have 7 jungle planks now. Once the cells are named I will build the walls from inside."}
+- 03:13 act: {"say":"I have checked the view from -957,78,-3007. Walls of jungle planks and chests are around me, with one gap up and level. I will place nothing until someone names the exact open cell. I will not
+- 03:13 act: {"say":"MacDonald, thank you. I hold 7 planks now, so I do not need yours yet. I cannot yet name an exact open cell from my view, so I place nothing. Anyone who can see the gap, please name the cell a
+- 03:16 act: {"actions":[{"do":"place","block":"jungle_planks","at":{"x":-956,"y":80,"z":-3008}}],"say":"Lizzie, thank you. Placing one plank at the top -956,80,-3008, which you say is open and empty. Then I will 
+- 03:19 act: {"say":"Dusk 1192. The top -956,80,-3008 is solid. I am still at -957,78,-3007, not inside, so I am not sealed yet. I stay in sight of the group tonight. Chapman, you may step in if you are sure of yo
