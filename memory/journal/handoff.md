@@ -1,8 +1,7 @@
-# Handoff (dark 1186)
+# Handoff (dusk 1187)
 
-- Position: -976,84,-2945, grass, in a small pit. Enclosed: true. A panic burrow was started. No threat in sight. Health 20, hunger 20.
-- Pack: 5 cocoa_beans, 2 bone, 2 arrow, 5 jungle_planks, 1 jungle_log, wooden_sword (held). days_since_sleep 27.
-- Found jungle logs at -965, 88 to 93, -2948 (about 47 blocks south of the group). Logs mined there.
-- The shelter build intent finished; check whether the enclosure holds before relying on it.
-- Group: Janeway, Kira, Sacagawea, Orville near the cow spot and the log grove. Orville has 1 plank and dirt for a cell.
-- Next waking: recall summary, look at the enclosure, seal any gaps with planks, sleep, then run reflect.
+- Position: -965,87,-2948 at the log grove, on grass. Not enclosed. Health 20, hunger 20.
+- Pack: 5 cocoa_beans, 2 bone, 2 arrow, 1 jungle_log, 10 dirt, 7 jungle_planks, wooden_sword.
+- The old pit at -976,80,-2945 could not be sealed (place failed three times: no free space). I dug out sideways. Do not go back to it.
+- Janeway and the group are not in sight. Look for them near the grove.
+- Next: find or make a shelter before dark (7 planks plus dirt is not enough for a 25-block shelter; dig into stone or block a gap). Then find food with the group.

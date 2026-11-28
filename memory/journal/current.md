@@ -1,3 +1,11 @@
 # Journal
 - 01:11 say: {"text":"It is dusk and I am sealed in this pit. No one is near. I will stay here through the night."}
 - Dusk, sleep failed (no bed). Dark, then day came. I am out of the pit, not enclosed, with a gap ahead. Health 20, hunger 20. Holding 7 planks, 7 dirt. Next: seal the gap with planks, then wait for the group.
+- 01:24 act: {"actions":[{"do":"place","block":"jungle_planks","at":{"x":-976,"y":81,"z":-2945}}],"say":"It is dusk. I am sealing the hole above me with a plank.","intent":{"goal":"seal_pit_roof","program":"rest",
+- 01:25 act: {"actions":[{"do":"place","block":"jungle_planks","at":{"x":-976,"y":81,"z":-2946}}],"intent":{"goal":"seal_pit_gap","program":"rest","arguments":{},"wake_on":["goal_completed","directly_addressed","u
+- 01:29 act: {"actions":[{"do":"place","block":"jungle_planks","at":{"x":-976,"y":81,"z":-2945}}],"say":"Morning. Trying the roof seal once more before I go find food."}
+- 01:30 act: {"actions":[{"do":"unstick"}],"intent":{"goal":"get_out_of_pit","program":"travel","arguments":{"target":{"x":-965,"y":88,"z":-2948}},"wake_on":["goal_completed","precondition_failed","unexpected_dama
+- 01:32 act: {"actions":[{"do":"break","at":{"x":-976,"y":80,"z":-2943}},{"do":"break","at":{"x":-976,"y":81,"z":-2944}}],"say":"I am boxed in. Digging out through the wall."}
+- 01:32 act: {"actions":[{"do":"break","at":{"x":-975,"y":80,"z":-2944}},{"do":"break","at":{"x":-977,"y":80,"z":-2944}},{"do":"break","at":{"x":-976,"y":80,"z":-2945}}]}
+- 01:32 act: {"actions":[{"do":"goto","target":"Janeway"}],"say":"Free of the pit. Heading to find Janeway and Kira for food.","intent":{"goal":"join_group","program":"follow","arguments":{"target":"Janeway"},"wak
+- 01:36 act: {"actions":[{"do":"goto","target":{"x":-965,"y":88,"z":-2948}}],"intent":{"goal":"reach_log_grove","program":"travel","arguments":{"target":{"x":-965,"y":88,"z":-2948}},"wake_on":["goal_completed","pr
