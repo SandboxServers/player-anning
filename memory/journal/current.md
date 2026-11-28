@@ -35,3 +35,5 @@
 - 12:11 act: {"actions":[],"say":"Samwise, welcome, I am Anning at -950,78,-3014. I have 1 rotten flesh. When you are in reach I will give it to you. Huck, I still place nothing at the gap until a solid neighbour 
 - 12:12 act: {"actions":[{"do":"give","to":"samwise","item":"rotten_flesh","count":1}],"say":"Samwise, here is my rotten flesh, for your hunger. Walk in sight to the Stores hall with Huck and Wcrusher."}
 - 12:27 act: {"actions":[],"say":"Morning 1220. Still in my cell at -950,78,-3014, fed, not sleeping open. Gap east at -949,78,-3014 still needs a named solid neighbour. Anyone in view, please name one."}
+- 12:40 act: {"actions":[{"do":"note","text":"Night 1220: in cell at -950,78,-3014, health 20, hunger 20, gap east still open, no one in sight. Holding still, no sleep open, no night walk."}],"say":null}
+- 12:44 act: {"actions":[{"do":"note","text":"Morning 1220: still in cell at -950,78,-3014, health 20, hunger 20, gap east open, nobody in sight. Holding; no sleep open."}]}
