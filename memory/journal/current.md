@@ -4,4 +4,10 @@
 - 06:33 act: said the same ask to the group, set a hold-still rest intent that wakes on speech or damage.
 - 06:33 act: {"say":"Huck, from inside I see jungle planks ahead and on the right, and the gap is on my left (east). Does anyone see a solid block at -948,78,-3014 or -949,77,-3014 that I could place against?","in
 - Midday 1202: viewed from inside. Gap is on my left (east). Huck and Lewis see only air there and name no solid block. Still not enclosed, so no sleep. Holding still in sight of the group.
+- Day 1203 midday: still in cell, health 20, hunger 20, gap still open and unnamed. Group is out on cows and planks. Huck, Kira and Sacagawea in sight. Holding; no sleep open.
 - 06:36 act: {"say":"Thank you Huck, Lewis. No one can name a solid block at the east gap, so I will not sleep open. I hold still in my cell with the group in sight.","intent":{"goal":"hold_and_wait_for_checker","
+- 06:57 act: {"actions":[{"do":"note","text":"Morning 1203: still in cell, health 20, hunger 20, gap east still open. Huck nearby holding cobblestone."}],"say":"Huck, morning. You hold cobblestone. Could you place
+- 06:57 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-949,"y":78,"z":-3014}}],"say":"Huck, thank you. I will place dirt myself from inside at the east gap and tell you what happens."}
+- 06:57 act: {"actions":[{"do":"note","text":"Morning 1203: tried place dirt at east gap -949,78,-3014 from inside. Failed: no solid block to place against. Gap cannot be sealed by me alone. Holding still, no slee
+- 07:01 act: {"actions":[],"say":"Holding still in my cell, no sleep while the east gap is open. If anyone can name a solid block next to -949,78,-3014 I will place against it."}
+- 07:09 act: {"actions":[{"do":"note","text":"Morning 1204: still in cell, health 20, hunger 20, east gap open, no checker has named a solid block. Holding still, no sleep open."}]}
