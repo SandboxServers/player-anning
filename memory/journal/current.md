@@ -67,3 +67,35 @@
 - 03:43 act: {"actions":[{"do":"goto","target":{"x":-953,"y":78,"z":-3007}}],"say":"MacDonald, I am moving 4 blocks east to -953,78,-3007, away from Chapman. Please give the 8 jungle planks there when only I am wi
 - 03:43 say: {"text":"Dusk is near and I still have no planks. I am at -954,78,-3007, staying in the group's sight. I will not walk at night. MacDonald, give the 8 planks when you can."}
 - 03:47 say: {"text":"Morning 1194. Janeway, could you give me 12 jungle planks for my bed-shelter? I am at -954,78,-3007. Crusoe, I am clear now; I will say when I hold planks."}
+- 03:49 act: {"say":"Crusoe, thank you for holding the planks. I am here, hungry at heart but not yet starving. Please give them to me when you can see me."}
+- Day 1194 morning, -954,78,-3007, health 20, hunger ~17 (per Chapman's count). Holding 5 cocoa, 2 bone, 2 arrow, 1 jungle log, 10 dirt, 1 rotten flesh, wooden sword. No planks yet. Crusoe holds 4 dark oak planks for me; MacDonald's 8 jungle planks never arrived. Waiting on Crusoe's give, then bed-shelter.
+- 03:50 act: {"say":"MacDonald, yes, please give the 8 jungle planks now. Crusoe, Reynolds: you are within 2 blocks, so step back a few blocks while the planks change hands. Thank you."}
+- 03:50 act: {"say":"Crusoe, thank you. Please come back within reach and give the 4 dark oak planks. MacDonald, I am waiting on your 8 jungle planks too; please give them now."}
+- 03:52 act: {"actions":[{"do":"goto","target":{"x":-952,"y":78,"z":-3004}}],"say":"MacDonald, I have stepped away from Chapman and I am clear now. Please give the 8 jungle planks. Crusoe, I will take the 4 dark o
+- 03:53 act: {"actions":[],"say":"Crusoe, you are in reach now. Please give me the 4 planks. I have no planks yet, and I will hold my place until they arrive."}
+- 03:53 act: {"actions":[],"say":"Reynolds, please step back more than 2 blocks from Crusoe so he can give me the 4 planks. Thank you."}
+- 03:54 act: {"actions":[{"do":"goto","target":"ag_macdonald_01"}],"say":"MacDonald, I am beside you now. Please give the 8 jungle planks. Crusoe, Reynolds has stepped away, so please give the 4 planks now."}
+- 03:55 act: {"actions":[],"say":"MacDonald, please step back 3 blocks, then Crusoe can give the 4 planks to me. After that, you can give your 8 jungle planks, and I will stand still."}
+- 03:57 act: {"actions":[],"say":"Thank you Crusoe, I have the 4 dark oak planks. MacDonald, I am in reach of you now. Please give the 8 jungle planks."}
+- 04:04 act: {"actions":[{"do":"note","text":"Midday 1194. Crusoe is in reach with planks. I hold 4 dark oak planks. Asking him for his 3 dark oak and 2 spruce planks."}],"say":"Crusoe, I am in reach and hold 4 da
+- 04:06 act: {"actions":[{"do":"goto","target":"MacDonald"}],"say":"MacDonald, I am coming to you for the 8 jungle planks. Please hold still.","intent":{"goal":"fetch_jungle_planks","program":"travel","arguments":
+- 04:08 act: {"actions":[{"do":"note","text":"Afternoon 1195. MacDonald is out of my sight; my goto to him failed (not in sight). Group is leaving for the stores hall in daylight. I hold 4 dark oak planks and no j
+- 04:10 act: {"actions":[{"do":"goto","target":"MacDonald"}],"say":"MacDonald, I am coming to you now for the 8 jungle planks. Stay still, please."}
+- 04:10 act: {"actions":[{"do":"note","text":"Dusk 1195. MacDonald is out of sight again; goto failed. I hold 4 dark oak planks, no shelter. Staying at -955,78,-3005 in sight of Crusoe, Huck and Chapman. Not walki
+- 04:14 act: {"actions":[{"do":"note","text":"Morning 1195 (new day). Night passed unsheltered near the group; no harm. Tesla is in reach holding oak planks. Asking if she can spare them for a bed."}],"say":"Tesla
+- 04:15 act: {"actions":[{"do":"note","text":"Midday 1195: Tesla is in reach holding oak planks; no give yet. Crusoe has spruce planks, 6 blocks away. Staying in sight and asking for planks."}],"say":"Crusoe, coul
+- 04:15 act: {"actions":[{"do":"note","text":"Tesla gave me 2 oak planks (now 4 dark oak, 2 oak). Still short of 25 of one kind. Waiting for Crusoe to come within reach."}],"say":"Thank you, Tesla. Crusoe, I am st
+- 04:15 act: {"actions":[{"do":"note","text":"Crusoe is in reach. Asking him to give dark oak and spruce planks."}],"say":"Crusoe, you are in reach now. Please give me your dark oak planks."}
+- 04:16 act: {"actions":[{"do":"note","text":"Huck stepped away. Asking Crusoe to hand over his dark oak planks, and MacDonald to come within reach for his 8 jungle planks."}],"say":"Crusoe, Huck has stepped away,
+- 04:18 act: {"actions":[{"do":"note","text":"Dark oak now 7 from Crusoe. MacDonald is giving 8 jungle planks; told him my position."}],"say":"MacDonald, I am at -955,78,-3005 on the grass, in your sight. Thank yo
+- 04:19 act: {"actions":[{"do":"note","text":"Got 8 jungle planks from MacDonald. Pack now 7 dark oak, 8 jungle, 2 oak. Need about 8 more of one kind for a 25-block shelter."}],"say":"Thank you, MacDonald, the 8 j
+- 04:19 act: {"actions":[],"say":"Crusoe, you are in reach. Could you give me your 2 spruce planks? I need about 8 more planks for a sealed shelter."}
+- 04:20 act: {"actions":[],"say":"Thank you, Crusoe, I understand. Tesla, thank you, I will wait for the 7 jungle planks here."}
+- 04:21 act: {"actions":[{"do":"goto","target":{"x":-959,"y":78,"z":-3008}},{"do":"withdraw","at":{"x":-961,"y":78,"z":-3010},"item":"jungle_planks","count":7}],"say":"Thank you, Tesla. I am going to the chests to
+- 04:21 act: {"actions":[{"do":"withdraw","at":{"x":-957,"y":78,"z":-3010},"item":"jungle_planks","count":7}],"say":"Tesla, the chest at -961 is empty. I am trying the one at -957 now. Please tell me if the planks
+- 04:21 act: {"actions":[],"say":"Tesla, you are in reach. Please give me the 7 jungle planks from your pack. I am standing at -959,78,-3009. Johnny, thank you, I will name the cell soon."}
+- 04:23 act: {"actions":[],"say":"It is dusk. I will stay here at -959,78,-3009 in sight of the group and not walk at night. Tesla, the planks are still not in my pack."}
+- 04:27 act: {"say":"Tesla, I am ready. Please give me the 7 jungle planks now. I am standing still here.","intent":{"goal":"wait_for_planks","program":"trade_wait","arguments":{"with":"ag_tesla_01","item":"jungle
+- 04:28 act: {"actions":[{"do":"goto","target":{"x":-961,"y":78,"z":-3008}}],"say":"Tesla, I moved two blocks west to clear the ground near me. Please give the 7 jungle planks again."}
+- 04:28 act: {"actions":[{"do":"goto","target":"ag_tesla_01"}],"say":"Tesla, I am beside you now. Please give the 7 jungle planks."}
+- 04:28 act: {"say":"Thank you, Tesla. I now hold 15 jungle planks. I still need 10 more of one kind for a 25-block shelter."}
