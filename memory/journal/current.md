@@ -11,3 +11,7 @@
 - 06:57 act: {"actions":[{"do":"note","text":"Morning 1203: tried place dirt at east gap -949,78,-3014 from inside. Failed: no solid block to place against. Gap cannot be sealed by me alone. Holding still, no slee
 - 07:01 act: {"actions":[],"say":"Holding still in my cell, no sleep while the east gap is open. If anyone can name a solid block next to -949,78,-3014 I will place against it."}
 - 07:09 act: {"actions":[{"do":"note","text":"Morning 1204: still in cell, health 20, hunger 20, east gap open, no checker has named a solid block. Holding still, no sleep open."}]}
+- 07:23 say: {"text":"Morning. My east gap is still open at -949,78,-3014. Huck, Zeoyellow: can either of you name a solid block I can place against there?"}
+- 07:25 act: {"actions":[{"do":"place","block":"jungle_planks","at":{"x":-949,"y":78,"z":-3014}}],"say":"Trying one jungle plank into the east gap, from inside. Huck, watch the wall with me."}
+- 07:26 act: {"actions":[{"do":"note","text":"Midday 1205: east gap still open, no solid neighbour named. Holding still in cell, no sleep open."}],"say":"Huck, thank you for watching. Still no solid block named fo
+- 07:30 say: {"text":"Afternoon. I stay put in my cell, not enclosed, so no sleep. Huck, Zeoyellow: if you can name a solid block next to -949,78,-3014, tell me and I will place against it."}
