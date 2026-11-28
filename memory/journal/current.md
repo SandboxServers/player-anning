@@ -160,3 +160,12 @@
 - 05:33 act: {"actions":[{"do":"goto","target":{"x":-952,"y":78,"z":-3014}}],"say":"I am going into my cell at -952,78,-3014 now to check the open face from inside, in daylight."}
 - 05:33 act: {"actions":[{"do":"place","block":"dark_oak_planks","at":{"x":-949,"y":78,"z":-3014}}],"say":"Huck, I am inside my cell and the open gap is on my east side. I am placing my dark oak plank there now."}
 - 05:33 act: {"actions":[{"do":"note","text":"Midday 1199. At -950,78,-3014 inside cell. View: enclosed except gap left and ahead. Place east failed: no solid block to place against. Stopping cell work for now; he
+- 05:34 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-949,"y":78,"z":-3014}}],"say":"Midday. I am sealing my cell, Huck. Stay clear of the gap, please."}
+- 05:34 say: {"text":"My cell's east gap won't take dirt: no solid block to place against. Could someone who can reach it place a block, or tell me a way in?"}
+- 05:35 say: {"text":"Thank you Mal, Huck. The exact gap is x -949, y 78, z -3014, directly east of me. Please place one dirt there. I'm staying put."}
+- 05:39 say: {"text":"Morning. Mal, thank you for trying. The east gap still has no solid neighbour to place against, so I cannot seal it from here. I'll stay in sight today and look for a way in with you."}
+- 05:47 say: {"text":"Anning, afternoon 1200. My east gap still has no solid neighbour, so I can't close it. I'll stay in sight tonight and not walk. Samwise, I can spare 1 jungle plank if you can reach my spot."}
+- 05:59 say: {"text":"Sacagawea, thank you. My open cell is x -949, y 78, z -3014, directly east of me. It has had no solid neighbour so far, so try only if you can see one. Otherwise I stay put in sight."}
+- 06:03 act: {"actions":[{"do":"note","text":"Night 1200. Not enclosed at -950,78,-3014; gap still open east. Staying put in group sight; not sleeping until enclosed:true."}],"say":"Anning here, night, not enclose
+- 06:03 act: {"actions":[{"do":"note","text":"Morning 1200. Still not enclosed; view shows gap on the left (east). Placing east failed twice before, so I will not retry the same try. Staying in group sight."}]}
+- 06:08 act: {"actions":[{"do":"note","text":"Midday 1201. Still open at -950,78,-3014 (east gap). Group is hungry. I have 1 rotten flesh and 3 jungle planks; offering to whoever is in reach. Staying in sight."}],
