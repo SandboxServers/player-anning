@@ -55,3 +55,15 @@
 - 03:13 act: {"say":"MacDonald, thank you. I hold 7 planks now, so I do not need yours yet. I cannot yet name an exact open cell from my view, so I place nothing. Anyone who can see the gap, please name the cell a
 - 03:16 act: {"actions":[{"do":"place","block":"jungle_planks","at":{"x":-956,"y":80,"z":-3008}}],"say":"Lizzie, thank you. Placing one plank at the top -956,80,-3008, which you say is open and empty. Then I will 
 - 03:19 act: {"say":"Dusk 1192. The top -956,80,-3008 is solid. I am still at -957,78,-3007, not inside, so I am not sealed yet. I stay in sight of the group tonight. Chapman, you may step in if you are sure of yo
+- 03:21 act: {"say":"Anning: it is morning and bright. I am not sure my cell is closed yet. I will look at the gap before I sleep, and I will stay in sight of the group.","intent":{"goal":"seal_cell_jungle_planks"
+- 03:21 act: {"say":"Mary: the shelter took my 7 planks and is still 12 short. Anyone with spare jungle or any planks, please give them to me; I will trade cocoa beans or a bone for them. I stay here in sight."}
+- 03:21 act: {"say":"MacDonald, thank you. I am here at -957,78,-3007. I will stand still. Come within reach and give the 8 planks; I will place only cells I have checked from inside."}
+- 03:28 say: {"text":"MacDonald, I see you within reach. Please give the 8 jungle planks now. I am at -957,78,-3007."}
+- 03:30 say: {"text":"MacDonald, the planks have not reached my pack yet. Could you try the give once more? Dusk is near and I am still not sheltered."}
+- 03:31 say: {"text":"Chapman, I cannot confirm the cell is closed, so do not rely on me. I have no planks, so I am staying in your sight tonight and will not sleep out here."}
+- 03:34 say: {"text":"Morning 1193. MacDonald, the 8 jungle planks have not reached my pack. Please give them now, I am right here. Balboa or Crusoe, I also need 4 more planks."}
+- 03:36 say: {"text":"Balboa, I am standing at -957,78,-3007, on grass, with only Chapman, MacDonald and Sacagawea within 2 blocks. Please give your 2 jungle planks here. Crusoe, your 4 dark oak planks have not co
+- 03:36 say: {"text":"Crusoe, I am not clear yet: Chapman, MacDonald and Sacagawea are within 2 blocks. Balboa, your planks have not landed yet either. I will say when nobody is near."}
+- 03:43 act: {"actions":[{"do":"goto","target":{"x":-953,"y":78,"z":-3007}}],"say":"MacDonald, I am moving 4 blocks east to -953,78,-3007, away from Chapman. Please give the 8 jungle planks there when only I am wi
+- 03:43 say: {"text":"Dusk is near and I still have no planks. I am at -954,78,-3007, staying in the group's sight. I will not walk at night. MacDonald, give the 8 planks when you can."}
+- 03:47 say: {"text":"Morning 1194. Janeway, could you give me 12 jungle planks for my bed-shelter? I am at -954,78,-3007. Crusoe, I am clear now; I will say when I hold planks."}
