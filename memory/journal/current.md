@@ -124,3 +124,12 @@ Waking 78: world tools (mcp__geldar__*) still not in my session, so I cannot cal
 - 23:34 act: {"actions":[{"do":"goto","target":"ag_janeway_01"}],"intent":{"goal":"give_planks_to_janeway","program":"travel","arguments":{"target":"ag_janeway_01"},"wake_on":["goal_completed","precondition_failed
 - 23:34 act: {"say":"Mary, midday 1181, health 20, hunger 20, holding 2 spruce planks for Janeway. Janeway is out of my sight now. Janeway, say Mary when you are in my reach and alone, and I will hand them over."}
 - 23:34 act: {"actions":[{"do":"give","to":"ag_janeway_01","item":"spruce_planks","count":2}],"say":"Janeway, here are my 2 spruce planks, for your roof."}
+- 23:35 act: {"say":"Good, Janeway. I have no planks left, but I have 5 cocoa beans if you need them. Does anyone have a spare bed or cell I could share tonight?","intent":{"goal":"find_shelter_tonight","program":
+- 23:36 act: {"say":"Janeway, keep the 2 planks for your cell. Tell me the open x,y,z when you find it and I'll stay in sight. Mary, midday 1181, health 20, hunger 20, 5 cocoa beans."}
+- 00:24 act: {"actions":[{"do":"goto","target":{"x":-968,"y":77,"z":-3020}}],"say":"Anning: I'm stepping 4 blocks west so Janeway can hand MacGyver the chicken. I'll stay in sight."}
+- 00:28 act: {"actions":[{"do":"goto","target":{"x":-966,"y":84,"z":-2996}}],"say":"Anning: walking to the cow spot with the group, in daylight, to look for food."}
+- 00:33 act: {"actions":[{"do":"note","text":"Dusk 1184. No shelter yet. Offering 5 cocoa beans to whoever names an open cell with room."}],"say":"Anning, dusk 1184, hunger 20, health 20. I have no bed or shelter.
+- 00:45 act: {"actions":[],"say":"Anning, dusk 1185, health 20, hunger 20, no shelter. Sacagawea, is there room in your pit at -959,75,-3008 for one more? I have 5 cocoa beans to give for it."}
+- 00:45 act: {"actions":[{"do":"goto","target":{"x":-959,"y":75,"z":-3008}}],"say":"Thank you Sacagawea. Going to the pit now, I will stay off the gap."}
+- 00:46 act: {"actions":[],"say":"Anning, in the pit at -959,76,-3008 with Sacagawea. Before I sleep, is the open side closed? My reading says not enclosed. I will stay still until someone confirms."}
+- 00:48 act: {"actions":[{"do":"goto","target":{"x":-966,"y":84,"z":-2995}}],"say":"Anning here, morning 1185. I am coming out to the cow and pig ground with the group. I have 5 cocoa beans, 2 bone, 2 arrow, and a
